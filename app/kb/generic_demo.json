@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "name": "Hotel Arthur",
+    "brand_site": "https://www.hotelarthur.fi",
+    "address": "Vuorikatu 19, 00100 Helsinki, Finland",
+    "city": "Helsinki",
+    "currency": "EUR",
+    "langs": [
+      "fi",
+      "en"
+    ],
+    "contact": {
+      "reception_phone": "+358 9 173 441",
+      "reception_email": "reception@hotelarthur.fi",
+      "sales_phone": "+358 9 173 44200",
+      "sales_email": "sales@hotelarthur.fi"
+    }
+  },
+  "booking": {
+    "booking_link_hint": "Use the 'Varaa tästä / Book here' button (Mews).",
+    "notes": "Best benefits often via direct booking; see site for details."
+  },
+  "policies": {
+    "check_in": {
+      "direct_booking": "from 14:00",
+      "other_channels_or_groups": "from 15:00",
+      "fi_note": "Varmista aikainen sisäänkirjautuminen vain varaamalla edeltävä yö.",
+      "en_note": "To guarantee early morning access, book the previous night."
+    },
+    "check_out": "by 12:00",
+    "luggage_storage": "Complimentary, locked but unguarded luggage room at reception (own risk).",
+    "pets": {
+      "allowed": true,
+      "rooms_limited": true,
+      "fee_per_night_eur": 10,
+      "must_inform_in_booking": true,
+      "cannot_leave_unattended": true
+    },
+    "smoking": {
+      "non_smoking_hotel": true,
+      "e_cigarettes_banned": true,
+      "cleaning_fee_from_eur": 250
+    },
+    "minors": "Under 18s can stay alone only with prior hotel approval and written guardian consent; availability may be restricted at certain times.",
+    "payment_methods": {
+      "cards_hotel": [
+        "Visa Debit",
+        "Visa Credit",
+        "Mastercard Debit",
+        "Mastercard Credit",
+        "Visa Electron",
+        "Maestro",
+        "American Express",
+        "Diners Club"
+      ],
+      "cash": false
+    }
+  },
+  "amenities": {
+    "wifi": "Free high-speed Wi-Fi in rooms and public areas.",
+    "breakfast": {
+      "included_in_most_rates": true,
+      "hours": {
+        "mon_fri": "06:30–10:00",
+        "sat_sun_holidays": "07:30–11:00"
+      },
+      "room_service_breakfast": "25.00 €/person (subject to change)"
+    },
+    "sauna": {
+      "private_saunas_count": 2,
+      "session_length_minutes": 60,
+      "price_direct_eur_per_person": 8,
+      "price_other_eur_per_person": 10,
+      "includes_towels": true,
+      "book_at_reception": true,
+      "rooms_with_private_sauna_examples": [
+        "Sir Arthur Suite (7th floor)",
+        "Ateljee room (9th floor)"
+      ]
+    },
+    "parking": {
+      "on_site": false,
+      "recommendation": "P-Kluuvi parking hall next to the hotel",
+      "max_vehicle_height_m": 2.3,
+      "entrance_address": "Puutarhakatu 1 (drive to levels C or D; follow exit toward Kaisaniemenkatu)",
+      "street_parking": "Paid on nearby streets with limited availability; typical 4 €/hour and time limits apply (see city info)."
+    },
+    "accessibility": {
+      "step_free_wc_locations": [
+        "Restaurant",
+        "4th floor (key from reception)"
+      ],
+      "wheelchair_to_meeting_wing": "Stair climber available (not for electric wheelchairs); meeting wing lacks an elevator.",
+      "accessible_rooms": 2,
+      "notes": "Doors 80–90 cm; no space for patient hoist in rooms; lift door width ~91 cm."
+    }
+  },
+  "location_transport": {
+    "distances_km": {
+      "airport_hel": 18.8,
+      "central_station": 0.5,
+      "kamppi_bus": 0.8,
+      "west_harbor": 3.5,
+      "south_harbor": 1.3,
+      "katajanokka_terminal": 1.6,
+      "vuosaari_harbor": 16.4
+    },
+    "nearest_metro": "Helsingin Yliopisto",
+    "nearby_trams": [
+      "2",
+      "3",
+      "5",
+      "6",
+      "6T",
+      "9"
+    ],
+    "airport_to_city": {
+      "trains": "I and P commuter trains to Helsinki Central Station (approx. 28–33 min).",
+      "buses": "600 and 415N to Rautatientori / Elielinaukio (approx. 45–50 min).",
+      "taxi_note": "Fixed-price taxis available at arrivals level at HEL."
+    },
+    "walking_from_station": "About 10 minutes from Central Station."
+  },
+  "faq_examples": [
+    {
+      "q_en": "What time is check-in and check-out?",
+      "a_en": "Direct bookings: from 14:00. Other channels or groups: from 15:00. Check-out by 12:00.",
+      "q_fi": "Mihin aikaan sisään- ja uloskirjautuminen?",
+      "a_fi": "Suorat varaukset klo 14:00 alkaen, muut kanavat/ryhmät klo 15:00 alkaen. Uloskirjautuminen klo 12:00."
+    },
+    {
+      "q_en": "Do you have a sauna?",
+      "a_en": "Yes—two private saunas. A 60-min slot costs approx. 8 €/person for direct bookings, otherwise 10 €/person; includes towels. Book at reception.",
+      "q_fi": "Onko hotellissa sauna?",
+      "a_fi": "Kyllä—kaksi tilaussaunaa. 60 min vuoro n. 8 €/hlö suoravaraukselle, muuten 10 €/hlö; pyyhkeet sisältyvät. Varaa vastaanotosta."
+    },
+    {
+      "q_en": "Where can I park?",
+      "a_en": "No on-site parking. We recommend the P-Kluuvi parking hall next to the hotel (entrance Puutarhakatu 1; max height 2.3 m).",
+      "q_fi": "Missä voi pysäköidä?",
+      "a_fi": "Ei omaa pysäköintiä. Suosittelemme P-Kluuvia hotellin vieressä (sisäänajo Puutarhakatu 1; korkeus 2,3 m)."
+    },
+    {
+      "q_en": "Are pets allowed?",
+      "a_en": "A limited number of pet rooms are available for an extra ~10 €/night. Please inform us when booking. Pets cannot be left unattended.",
+      "q_fi": "Saako lemmikin tuoda?",
+      "a_fi": "Rajoitettu määrä lemmikkihuoneita, lisämaksu n. 10 €/yö. Ilmoita varatessa. Lemmikkiä ei saa jättää yksin."
+    },
+    {
+      "q_en": "Is smoking allowed?",
+      "a_en": "No—this is a non-smoking hotel. Cleaning fee from 250 € for violations; e-cigarettes also banned indoors.",
+      "q_fi": "Onko tupakointi sallittua?",
+      "a_fi": "Ei—hotelli on savuton. Siivousmaksu alkaen 250 €; myös sähkötupakka kielletty sisätiloissa."
+    },
+    {
+      "q_en": "What are breakfast hours?",
+      "a_en": "Mon–Fri 06:30–10:00; Sat–Sun & holidays 07:30–11:00.",
+      "q_fi": "Milloin aamiainen on?",
+      "a_fi": "Ma–pe 06:30–10:00; la–su & pyhät 07:30–11:00."
+    },
+    {
+      "q_en": "How do I get from the airport?",
+      "a_en": "I/P trains to Central Station (~28–33 min). Buses 600 and 415N to the center (~45–50 min). Taxis available at arrivals with fixed prices.",
+      "q_fi": "Miten pääsen lentokentältä?",
+      "a_fi": "I/P-lähijunat Rautatieasemalle (~28–33 min). Bussit 600 ja 415N keskustaan (~45–50 min). Taksit kiinteähintaisia."
+    }
+  ],
+  "escalation_templates": {
+    "en": "I’m not fully sure about that detail. I can ask our front desk for you or connect you via reception@hotelarthur.fi / +358 9 173 441.",
+    "fi": "En ole täysin varma tästä. Voin kysyä vastaanotolta tai yhdistää sinut: reception@hotelarthur.fi / +358 9 173 441."
+  }
+}

@@ -1,0 +1,347 @@
+/* Hotel Arthur brand-aligned theme (approx.)
+   Fonts: Playfair Display (headings), Montserrat (body)
+   Palette (tweak quickly via CSS variables):
+     --arthur-primary: deep navy (header/buttons)
+     --arthur-accent : warm gold (accents/bubble)
+     --arthur-muted  : soft warm background
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap');
+
+:root{
+  --arthur-primary: #1F2A44;
+  --arthur-accent:  #C8A24A;
+  --arthur-muted:   #F7F4EC;
+  --arthur-border:  #E2D9C8;
+  --arthur-text:    #1E1E1E;
+  --arthur-white:   #FFFFFF;
+
+  --radius: 14px;
+  --shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* Typography reset */
+html, body {
+  margin: 0;
+  font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+  color: var(--arthur-text);
+  background: transparent;
+}
+
+/* Floating chat bubble */
+#chat-bubble {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--arthur-accent);
+  color: var(--arthur-white);
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: var(--shadow);
+  border: 2px solid rgba(0,0,0,0.04);
+  transition: transform .15s ease, box-shadow .2s ease;
+}
+#chat-bubble:hover{ transform: translateY(-1px); box-shadow: 0 12px 28px rgba(0,0,0,0.16); }
+#chat-bubble:active{ transform: translateY(0); }
+
+/* Chat window panel */
+#chat-window {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 360px;
+  max-width: 92vw;
+  max-height: 82vh;
+  height: 560px;
+  background: var(--arthur-white);
+  border: 1px solid var(--arthur-border);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 9998;
+  box-shadow: var(--shadow);
+
+  transform: translateY(20px);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.28s ease;
+}
+#chat-window.show { transform: translateY(0); opacity: 1; pointer-events: auto; }
+
+/* Header */
+#chat-header {
+  background: var(--arthur-primary);
+  color: var(--arthur-white);
+  padding: 12px 44px 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;   /* centers brand text */
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  letter-spacing: .2px;
+  font-family: "Playfair Display", Georgia, serif;
+}
+#chat-close {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  opacity: .9;
+}
+#chat-close:hover { opacity: 1; }
+
+/* Messages area */
+#chat-messages {
+  flex: 1;
+  padding: 14px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: var(--arthur-muted);
+}
+
+/* Message bubbles */
+.message {
+  padding: 10px 14px;
+  border-radius: 16px;
+  max-width: 82%;
+  line-height: 1.45;
+  font-size: 14px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03);
+}
+.message.user {
+  align-self: flex-end;
+  background: var(--arthur-white);
+  border: 1px solid var(--arthur-border);
+}
+.message.bot {
+  align-self: flex-start;
+  background: #FFF6DC; /* light gold tint */
+  border: 1px solid #F0E6CC;
+}
+
+/* Input area */
+#chat-input {
+  display: flex;
+  border-top: 1px solid var(--arthur-border);
+  background: var(--arthur-white);
+  padding: 8px;
+  gap: 8px;
+}
+#chat-input input {
+  flex: 1;
+  border: 1px solid var(--arthur-border);
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 12px;
+  outline: none;
+}
+#chat-input input:focus {
+  border-color: var(--arthur-accent);
+  box-shadow: 0 0 0 3px rgba(200,162,74,0.18);
+}
+#chat-input button {
+  background: var(--arthur-accent);
+  color: var(--arthur-white);
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: 600;
+  min-width: 84px;
+  transition: filter .15s ease, transform .04s ease;
+}
+#chat-input button:hover { filter: brightness(1.05); }
+#chat-input button:active { transform: translateY(1px); }
+#chat-input button[disabled] { opacity: .6; cursor: not-allowed; }
+
+/* Heading style to match brand serif */
+#chat-header .brand { font-family: "Playfair Display", Georgia, serif; font-weight: 700; }
+
+/* Responsive */
+@media (max-width: 520px){
+  #chat-window {
+    width: 96vw;
+    height: calc(var(--vh, 1vh) * 88);
+    right: 2vw;
+    bottom: 10px;
+  }
+  #chat-header { font-size: 18px; }
+  #chat-messages { font-size: 16px; }
+  #chat-input input, #chat-input button { font-size: 16px; }
+  #chat-bubble { width: 68px; height: 68px; font-size: 32px; }
+}
+
+/* Hide chat in mobile landscape (optional) */
+@media (max-width: 520px) and (orientation: landscape){
+  #chat-window { display: none; }
+}
+
+
+/* --- Chat layout, mobile friendly remake --- */
+html, body {
+  height: 100%;       /* baseline so flex containers can fill */
+  margin: 0;
+  padding: 0;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;       /* fill iframe */
+  min-height: 320px;  /* never collapse on mobile */
+  background: #fff;
+}
+
+/* Ensure chat window is visible by default */
+.chat-container { display: block; }
+/* If you previously used .chat-container { display:none; } then keep .show logic */
+
+/* Messages area scrolls, with room at bottom for input bar */
+.chat-messages {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 10px;
+  padding-bottom: 70px; /* space so last message isn't hidden */
+  box-sizing: border-box;
+}
+
+/* Input bar pinned to bottom */
+.chat-input {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border-top: 1px solid #ddd;
+  background: #fff;
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+}
+
+/* Input field flexes, send button stays visible */
+.chat-input input[type="text"],
+.chat-input textarea {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.chat-input button {
+  flex: 0 0 auto;
+  padding: 10px 14px;
+  font-size: 14px;
+  max-width: 30%;
+  white-space: nowrap;
+}
+
+
+
+/* --- Fix: prevent send button clipping on mobile --- */
+.chat-input {
+  width: 100%;
+  box-sizing: border-box;
+  gap: 6px;               /* slightly smaller gap to save width */
+  padding-left: 8px;
+  padding-right: 8px;
+  overflow: visible;      /* don't clip children */
+}
+.chat-input * { box-sizing: border-box; }
+
+.chat-input input[type="text"],
+.chat-input textarea {
+  flex: 1 1 auto;
+  min-width: 0;           /* allow shrinking to avoid overflow */
+}
+
+.chat-input button {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 34%;         /* cap on very narrow screens */
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .chat-input button { max-width: 40%; }
+  .chat-messages { padding-bottom: 84px; } /* extra space for taller input bar on phones */
+}
+
+
+/* --- ID-based overrides to match current HTML structure --- */
+#chat-window { 
+  display: flex; 
+  flex-direction: column; 
+  height: 100%; 
+  min-height: 320px; 
+  background: #fff; 
+  overflow: hidden; 
+  box-sizing: border-box;
+}
+#chat-messages { 
+  flex: 1 1 auto; 
+  overflow-y: auto; 
+  -webkit-overflow-scrolling: touch; 
+  padding: 10px; 
+  padding-bottom: 84px; 
+  box-sizing: border-box; 
+}
+#chat-input { 
+  flex: 0 0 auto; 
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+  padding: 8px; 
+  border-top: 1px solid #ddd; 
+  background: #fff; 
+  position: sticky; 
+  bottom: 0; 
+  z-index: 10; 
+  width: 100%;
+  box-sizing: border-box;
+  overflow: visible;
+}
+#chat-input input[type="text"], 
+#chat-input textarea { 
+  flex: 1 1 auto; 
+  min-width: 0; 
+  font-size: 14px; 
+  padding: 10px; 
+}
+#chat-input button { 
+  flex: 0 0 auto; 
+  padding: 10px 14px; 
+  font-size: 14px; 
+  max-width: 40%; 
+  white-space: nowrap; 
+}
+@media (max-width: 480px) {
+  #chat-input button { max-width: 36%; }
+}
+
+#chat-header .brand {
+  margin: 0 auto;            /* ensures centering */
+  text-align: center;
+  flex: 1;
+}
+
+/* If you keep the ✖ close button, float it right */
+#chat-close {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
