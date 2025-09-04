@@ -1,1 +1,1 @@
-web: gunicorn app_hotel:app --preload --workers=2 --threads=4 --timeout=120
+web: uvicorn app:app --host 0.0.0.0 --port $PORT --workers 1
