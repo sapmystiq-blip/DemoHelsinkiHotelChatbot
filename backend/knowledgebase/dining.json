@@ -1,0 +1,642 @@
+[
+  {
+    "question": "What are the breakfast hours?",
+    "answer": "Breakfast is served daily from 7:00 to 10:30 in our main restaurant."
+  },
+  {
+    "question": "Is breakfast included in the room rate?",
+    "answer": "Breakfast is included in most room rates. Please check your booking confirmation."
+  },
+  {
+    "question": "Do you serve a Finnish-style breakfast?",
+    "answer": "Yes, our buffet includes Finnish specialties such as Karelian pies, rye bread, smoked salmon, and porridge."
+  },
+  {
+    "question": "Are vegetarian options available at breakfast?",
+    "answer": "Yes, our breakfast buffet includes vegetarian-friendly dishes, salads, and plant-based proteins."
+  },
+  {
+    "question": "Do you provide vegan options?",
+    "answer": "Yes, vegan options such as plant-based spreads, non-dairy milk, and fresh fruit are always available."
+  },
+  {
+    "question": "Do you have gluten-free bread?",
+    "answer": "Yes, gluten-free bread and cereals are available upon request."
+  },
+  {
+    "question": "Do you serve lactose-free milk?",
+    "answer": "Yes, we offer lactose-free and oat milk at the buffet."
+  },
+  {
+    "question": "Can I request an early breakfast?",
+    "answer": "Yes, we can prepare a takeaway breakfast package if requested the night before."
+  },
+  {
+    "question": "Do you offer room service breakfast?",
+    "answer": "Yes, breakfast can be ordered to your room between 7:00 and 10:00."
+  },
+  {
+    "question": "What type of coffee do you serve?",
+    "answer": "We serve freshly brewed Finnish coffee, espresso, cappuccino, and latte."
+  },
+  {
+    "question": "Is there a children’s breakfast menu?",
+    "answer": "Yes, we provide child-friendly options such as pancakes, cereals, and fruit."
+  },
+  {
+    "question": "Do you serve champagne breakfast?",
+    "answer": "Yes, sparkling wine is available for an additional charge."
+  },
+  {
+    "question": "Can I invite a guest to breakfast?",
+    "answer": "Yes, outside guests are welcome for €20 per person."
+  },
+  {
+    "question": "Do you have a restaurant?",
+    "answer": "Yes, our in-house restaurant serves Finnish and international cuisine daily."
+  },
+  {
+    "question": "What are the restaurant opening hours?",
+    "answer": "Our restaurant is open from 12:00 to 22:00."
+  },
+  {
+    "question": "Do you serve lunch?",
+    "answer": "Yes, lunch is served from 12:00 to 15:00 with daily specials."
+  },
+  {
+    "question": "Do you serve dinner?",
+    "answer": "Yes, dinner is served from 17:00 to 22:00."
+  },
+  {
+    "question": "Do you offer a set menu?",
+    "answer": "Yes, a seasonal 3-course set menu is available daily."
+  },
+  {
+    "question": "Do you serve Finnish specialties?",
+    "answer": "Yes, dishes like reindeer stew, salmon soup, and mushroom risotto are featured on our menu."
+  },
+  {
+    "question": "Is there a vegetarian menu?",
+    "answer": "Yes, vegetarian dishes are available for each course."
+  },
+  {
+    "question": "Do you serve vegan meals?",
+    "answer": "Yes, vegan meals can be prepared upon request."
+  },
+  {
+    "question": "Can I see the restaurant menu online?",
+    "answer": "Yes, our menu is available on the hotel’s website."
+  },
+  {
+    "question": "Do you have a children’s menu?",
+    "answer": "Yes, the restaurant offers a kids’ menu with smaller portions."
+  },
+  {
+    "question": "Do you serve fish and seafood?",
+    "answer": "Yes, our menu includes fresh Baltic herring, salmon, and perch dishes."
+  },
+  {
+    "question": "Do you serve reindeer dishes?",
+    "answer": "Yes, reindeer fillet and stew are available seasonally."
+  },
+  {
+    "question": "Do you serve traditional Finnish soup?",
+    "answer": "Yes, creamy salmon soup is one of our specialties."
+  },
+  {
+    "question": "Do you have daily specials?",
+    "answer": "Yes, our chef prepares daily lunch and dinner specials."
+  },
+  {
+    "question": "Do you accommodate food allergies?",
+    "answer": "Yes, please inform staff of any allergies when ordering."
+  },
+  {
+    "question": "Do you serve kosher meals?",
+    "answer": "Kosher meals are not available in-house but can be arranged with advance notice."
+  },
+  {
+    "question": "Do you serve halal food?",
+    "answer": "We can prepare halal-friendly meals with advance notice."
+  },
+  {
+    "question": "Do you serve organic food?",
+    "answer": "Yes, many ingredients are organic and locally sourced."
+  },
+  {
+    "question": "Do you offer takeaway meals?",
+    "answer": "Yes, takeaway lunch boxes can be ordered from the restaurant."
+  },
+  {
+    "question": "Do you offer packed lunches?",
+    "answer": "Yes, packed lunches are available for excursions."
+  },
+  {
+    "question": "Do you serve dessert?",
+    "answer": "Yes, we offer cakes, pastries, and traditional Finnish desserts."
+  },
+  {
+    "question": "Do you serve Runeberg tarts?",
+    "answer": "Yes, Runeberg tarts are available seasonally in February."
+  },
+  {
+    "question": "Do you serve Joulutorttu pastries?",
+    "answer": "Yes, star-shaped Christmas pastries are served in December."
+  },
+  {
+    "question": "Do you serve pulla?",
+    "answer": "Yes, Finnish cardamom buns (pulla) are available daily."
+  },
+  {
+    "question": "Do you serve berries?",
+    "answer": "Yes, blueberries, lingonberries, and cloudberries are featured in desserts and jams."
+  },
+  {
+    "question": "Do you have a bar?",
+    "answer": "Yes, our lobby bar is open daily until midnight."
+  },
+  {
+    "question": "What drinks are served at the bar?",
+    "answer": "The bar serves cocktails, Finnish beers, ciders, wines, and spirits."
+  },
+  {
+    "question": "Do you serve Finnish gin?",
+    "answer": "Yes, we offer Helsinki Distilling Company gin and tonics."
+  },
+  {
+    "question": "Do you serve craft beers?",
+    "answer": "Yes, we feature local Finnish craft beers on tap."
+  },
+  {
+    "question": "Do you serve glögi?",
+    "answer": "Yes, hot mulled wine (glögi) is served during winter months."
+  },
+  {
+    "question": "Do you serve coffee at the bar?",
+    "answer": "Yes, the bar offers specialty coffees and liqueurs."
+  },
+  {
+    "question": "Do you offer happy hour?",
+    "answer": "Yes, happy hour runs daily from 17:00 to 19:00."
+  },
+  {
+    "question": "Do you serve snacks at the bar?",
+    "answer": "Yes, light snacks such as sandwiches and cheese plates are available."
+  },
+  {
+    "question": "Do you serve cocktails?",
+    "answer": "Yes, our bartenders prepare classic and signature cocktails."
+  },
+  {
+    "question": "Do you have live music at the bar?",
+    "answer": "Yes, live performances are held on weekends."
+  },
+  {
+    "question": "Do you offer wine tasting?",
+    "answer": "Yes, Finnish berry wines and international selections are available for tasting events."
+  },
+  {
+    "question": "Do you offer room service?",
+    "answer": "Yes, room service is available daily from 12:00 to 22:00."
+  },
+  {
+    "question": "What can I order with room service?",
+    "answer": "Room service offers soups, salads, burgers, pasta, and desserts."
+  },
+  {
+    "question": "Do you serve wine to the room?",
+    "answer": "Yes, wines and beers can be ordered to the room."
+  },
+  {
+    "question": "Can I order late-night snacks?",
+    "answer": "Yes, a limited menu is available for late-night orders."
+  },
+  {
+    "question": "Do you offer minibar snacks?",
+    "answer": "Yes, minibars are stocked with drinks, chocolates, and nuts."
+  },
+  {
+    "question": "Do you serve seasonal menus?",
+    "answer": "Yes, seasonal dishes celebrate Finnish holidays and ingredients."
+  },
+  {
+    "question": "Do you host Christmas dinners?",
+    "answer": "Yes, a traditional Finnish Christmas buffet is offered in December."
+  },
+  {
+    "question": "Do you serve Easter brunch?",
+    "answer": "Yes, Easter brunch features Finnish holiday specialties."
+  },
+  {
+    "question": "Do you host midsummer dining events?",
+    "answer": "Yes, special menus are served for midsummer celebrations."
+  },
+  {
+    "question": "Do you host themed dinners?",
+    "answer": "Yes, themed dinners such as Nordic tasting menus are arranged seasonally."
+  },
+  {
+    "question": "Do you have a chef’s table?",
+    "answer": "Yes, the chef’s table is available for private dining experiences."
+  },
+  {
+    "question": "Do you offer private dining?",
+    "answer": "Yes, private dining rooms can be reserved for groups."
+  },
+  {
+    "question": "Can I book a table at the restaurant?",
+    "answer": "Yes, reservations can be made online or at reception."
+  },
+  {
+    "question": "Is walk-in dining available?",
+    "answer": "Yes, subject to table availability."
+  },
+  {
+    "question": "Do you have outdoor seating?",
+    "answer": "Yes, our terrace is open during summer months."
+  },
+  {
+    "question": "Do you allow pets in the restaurant?",
+    "answer": "Pets are welcome on the outdoor terrace but not indoors."
+  },
+  {
+    "question": "Do you provide high chairs?",
+    "answer": "Yes, high chairs are available in the restaurant."
+  },
+  {
+    "question": "Do you provide coloring kits for children?",
+    "answer": "Yes, coloring books and pencils are available for kids."
+  },
+  {
+    "question": "Do you host children’s parties?",
+    "answer": "Yes, small birthday parties can be arranged with a special menu."
+  },
+  {
+    "question": "Do you have baby food available?",
+    "answer": "Yes, baby food jars are available upon request."
+  },
+  {
+    "question": "Do you offer buffet dinners?",
+    "answer": "Yes, buffet dinners are served on weekends."
+  },
+  {
+    "question": "Do you serve à la carte meals?",
+    "answer": "Yes, à la carte dining is available daily."
+  },
+  {
+    "question": "Do you serve international cuisine?",
+    "answer": "Yes, dishes from Italy, France, and Asia are part of our menu."
+  },
+  {
+    "question": "Do you serve pizza?",
+    "answer": "Yes, wood-fired pizzas are available on the à la carte menu."
+  },
+  {
+    "question": "Do you serve burgers?",
+    "answer": "Yes, our signature Finnish beef burger is popular."
+  },
+  {
+    "question": "Do you serve pasta?",
+    "answer": "Yes, pasta dishes are available daily."
+  },
+  {
+    "question": "Do you serve salads?",
+    "answer": "Yes, fresh salads are available with seasonal vegetables."
+  },
+  {
+    "question": "Do you serve steak?",
+    "answer": "Yes, ribeye and tenderloin steaks are available."
+  },
+  {
+    "question": "Do you serve fish soup?",
+    "answer": "Yes, creamy Finnish salmon soup is on the menu."
+  },
+  {
+    "question": "Do you serve vegetarian soup?",
+    "answer": "Yes, mushroom and vegetable soups are available."
+  },
+  {
+    "question": "Do you serve risotto?",
+    "answer": "Yes, wild mushroom risotto is available seasonally."
+  },
+  {
+    "question": "Do you serve vegan burgers?",
+    "answer": "Yes, plant-based burgers are available."
+  },
+  {
+    "question": "Do you serve sushi?",
+    "answer": "Sushi is not served in-house, but we can recommend nearby restaurants."
+  },
+  {
+    "question": "Do you serve Indian food?",
+    "answer": "We do not serve Indian cuisine, but nearby restaurants offer it."
+  },
+  {
+    "question": "Do you serve Chinese food?",
+    "answer": "Chinese dishes are not available in-house, but we can recommend local options."
+  },
+  {
+    "question": "Do you serve Nordic tasting menus?",
+    "answer": "Yes, our chef prepares tasting menus inspired by Nordic flavors."
+  },
+  {
+    "question": "Do you offer chef’s recommendations?",
+    "answer": "Yes, daily chef’s recommendations are highlighted on the menu."
+  },
+  {
+    "question": "Do you serve coffee with meals?",
+    "answer": "Yes, coffee and tea are available with lunch and dinner."
+  },
+  {
+    "question": "Do you serve tea?",
+    "answer": "Yes, we offer a wide selection of teas including Finnish berry teas."
+  },
+  {
+    "question": "Do you serve hot chocolate?",
+    "answer": "Yes, hot chocolate is available, topped with whipped cream."
+  },
+  {
+    "question": "Do you serve smoothies?",
+    "answer": "Yes, smoothies made with fresh berries are available."
+  },
+  {
+    "question": "Do you serve fresh juices?",
+    "answer": "Yes, orange, apple, and berry juices are available."
+  },
+  {
+    "question": "Do you offer diet-friendly meals?",
+    "answer": "Yes, low-calorie and light dishes are available on request."
+  },
+  {
+    "question": "Do you serve low-salt meals?",
+    "answer": "Yes, low-sodium meals can be prepared upon request."
+  },
+  {
+    "question": "Do you serve diabetic-friendly meals?",
+    "answer": "Yes, sugar-free desserts and meals are available."
+  },
+  {
+    "question": "Do you offer detox juices?",
+    "answer": "Yes, detox juices are available at breakfast."
+  },
+  {
+    "question": "Do you serve mocktails?",
+    "answer": "Yes, non-alcoholic cocktails are available at the bar."
+  },
+  {
+    "question": "Do you serve sparkling water?",
+    "answer": "Yes, both still and sparkling water are available."
+  },
+  {
+    "question": "Do you serve kombucha?",
+    "answer": "Yes, Finnish craft kombucha is available."
+  },
+  {
+    "question": "Do you serve smoothies at breakfast?",
+    "answer": "Yes, freshly blended smoothies are part of the buffet."
+  },
+  {
+    "question": "Do you serve porridge?",
+    "answer": "Yes, traditional oat porridge is available with berry toppings."
+  },
+  {
+    "question": "Do you serve rye bread?",
+    "answer": "Yes, Finnish rye bread is available daily."
+  },
+  {
+    "question": "Do you serve cheese?",
+    "answer": "Yes, a selection of Finnish cheeses is part of the buffet."
+  },
+  {
+    "question": "Do you serve cold cuts?",
+    "answer": "Yes, ham, turkey, and smoked fish are available."
+  },
+  {
+    "question": "Do you serve eggs?",
+    "answer": "Yes, scrambled, boiled, and omelets are available."
+  },
+  {
+    "question": "Do you serve bacon?",
+    "answer": "Yes, crispy bacon is served daily."
+  },
+  {
+    "question": "Do you serve sausages?",
+    "answer": "Yes, Finnish sausages are part of the breakfast buffet."
+  },
+  {
+    "question": "Do you serve fresh fruit?",
+    "answer": "Yes, seasonal fresh fruit is always available."
+  },
+  {
+    "question": "Do you serve yogurt?",
+    "answer": "Yes, natural, flavored, and lactose-free yogurt are available."
+  },
+  {
+    "question": "Do you serve muesli?",
+    "answer": "Yes, muesli and granola are included in the buffet."
+  },
+  {
+    "question": "Do you serve pancakes?",
+    "answer": "Yes, pancakes with jam and cream are served on weekends."
+  },
+  {
+    "question": "Do you serve waffles?",
+    "answer": "Yes, fresh waffles are available at breakfast."
+  },
+  {
+    "question": "Do you serve ice cream?",
+    "answer": "Yes, Finnish berry ice cream is available for dessert."
+  },
+  {
+    "question": "Do you serve sorbet?",
+    "answer": "Yes, berry sorbets are available for vegans."
+  },
+  {
+    "question": "Do you serve cakes?",
+    "answer": "Yes, cakes such as blueberry pie and cheesecake are offered."
+  },
+  {
+    "question": "Do you serve chocolate desserts?",
+    "answer": "Yes, chocolate fondant and mousse are available."
+  },
+  {
+    "question": "Do you serve pastries?",
+    "answer": "Yes, croissants, Danish pastries, and pulla are available."
+  },
+  {
+    "question": "Do you serve savory pies?",
+    "answer": "Yes, Karelian pies are a traditional favorite."
+  },
+  {
+    "question": "Do you serve quiche?",
+    "answer": "Yes, quiche with seasonal vegetables is available."
+  },
+  {
+    "question": "Do you serve soup at lunch?",
+    "answer": "Yes, soup and salad are offered as lunch specials."
+  },
+  {
+    "question": "Do you serve buffet lunch?",
+    "answer": "Yes, buffet lunch is served on weekdays."
+  },
+  {
+    "question": "Do you serve business lunches?",
+    "answer": "Yes, business set lunches are available for groups."
+  },
+  {
+    "question": "Do you offer candlelight dinners?",
+    "answer": "Yes, candlelight tables can be reserved for romantic dinners."
+  },
+  {
+    "question": "Do you provide birthday cakes?",
+    "answer": "Yes, custom cakes can be arranged for celebrations."
+  },
+  {
+    "question": "Do you host weddings?",
+    "answer": "Yes, wedding banquets can be arranged with catering."
+  },
+  {
+    "question": "Do you provide catering?",
+    "answer": "Yes, catering services are available for events."
+  },
+  {
+    "question": "Do you offer afternoon tea?",
+    "answer": "Yes, afternoon tea with pastries is served daily from 14:00 to 17:00."
+  },
+  {
+    "question": "Do you serve scones?",
+    "answer": "Yes, freshly baked scones are served with jam and cream."
+  },
+  {
+    "question": "Do you offer coffee and cake deals?",
+    "answer": "Yes, coffee and cake are available for €8 in the afternoon."
+  },
+  {
+    "question": "Do you provide picnic baskets?",
+    "answer": "Yes, picnic baskets can be ordered for outdoor trips."
+  },
+  {
+    "question": "Do you host wine dinners?",
+    "answer": "Yes, wine pairing dinners are held monthly."
+  },
+  {
+    "question": "Do you host beer tastings?",
+    "answer": "Yes, Finnish craft beer tastings are organized on weekends."
+  },
+  {
+    "question": "Do you host cocktail workshops?",
+    "answer": "Yes, cocktail-making classes are available on request."
+  },
+  {
+    "question": "Do you host cooking classes?",
+    "answer": "Yes, Finnish cooking classes are offered occasionally."
+  },
+  {
+    "question": "Do you serve reindeer at Christmas?",
+    "answer": "Yes, reindeer dishes are part of the Christmas buffet."
+  },
+  {
+    "question": "Do you serve fish at midsummer?",
+    "answer": "Yes, herring, salmon, and new potatoes are midsummer staples."
+  },
+  {
+    "question": "Do you serve crayfish?",
+    "answer": "Yes, crayfish dinners are available in August."
+  },
+  {
+    "question": "Do you serve cloudberry desserts?",
+    "answer": "Yes, cloudberry parfait and jam are offered seasonally."
+  },
+  {
+    "question": "Do you serve lingonberry juice?",
+    "answer": "Yes, lingonberry juice is available at breakfast and the bar."
+  },
+  {
+    "question": "Do you serve blueberry pie?",
+    "answer": "Yes, Finnish blueberry pie is served with vanilla sauce."
+  },
+  {
+    "question": "Do you serve cinnamon buns?",
+    "answer": "Yes, cinnamon buns (korvapuusti) are available in the café."
+  },
+  {
+    "question": "Do you serve oat milk lattes?",
+    "answer": "Yes, oat milk lattes are available at the bar."
+  },
+  {
+    "question": "Do you provide dog-friendly dining?",
+    "answer": "Yes, pets are welcome on the outdoor terrace and water bowls are provided."
+  },
+  {
+    "question": "Do you provide seasonal cocktails?",
+    "answer": "Yes, cocktails are updated seasonally with Finnish berries and herbs."
+  },
+  {
+    "question": "Do you serve local ciders?",
+    "answer": "Yes, apple and berry ciders from Finnish producers are available."
+  },
+  {
+    "question": "Do you offer a Sunday brunch?",
+    "answer": "Yes, Sunday brunch is served from 11:00 to 14:00 with live cooking stations."
+  },
+  {
+    "question": "Do you provide bottomless coffee?",
+    "answer": "Yes, coffee is unlimited during breakfast and brunch."
+  },
+  {
+    "question": "Do you provide lactose-free ice cream?",
+    "answer": "Yes, lactose-free ice cream is available."
+  },
+  {
+    "question": "Do you serve non-alcoholic beer?",
+    "answer": "Yes, alcohol-free beers are available at the bar."
+  },
+  {
+    "question": "Do you serve low-alcohol wine?",
+    "answer": "Yes, low-alcohol and non-alcoholic wines are available."
+  },
+  {
+    "question": "Do you provide baby chairs in the restaurant?",
+    "answer": "Yes, baby chairs are available upon request."
+  },
+  {
+    "question": "Do you have buffet themes?",
+    "answer": "Yes, buffet themes such as seafood nights are offered monthly."
+  },
+  {
+    "question": "Do you offer all-you-can-eat buffets?",
+    "answer": "Yes, dinner buffets are unlimited."
+  },
+  {
+    "question": "Do you offer chef specials for couples?",
+    "answer": "Yes, romantic set menus with wine pairing are available."
+  },
+  {
+    "question": "Do you offer wine pairing menus?",
+    "answer": "Yes, each course can be paired with selected wines."
+  },
+  {
+    "question": "Do you have sommeliers?",
+    "answer": "Yes, our sommelier can assist with wine recommendations."
+  },
+  {
+    "question": "Do you offer food delivery?",
+    "answer": "We do not deliver externally, but meals can be ordered to rooms."
+  },
+  {
+    "question": "Do you provide dietician-approved meals?",
+    "answer": "Yes, meals can be tailored to dietary needs with advance notice."
+  },
+  {
+    "question": "Do you offer kids eat free promotions?",
+    "answer": "Yes, children under 6 eat free when accompanied by paying adults."
+  },
+  {
+    "question": "Do you serve live cooking stations?",
+    "answer": "Yes, brunch includes live omelet and waffle stations."
+  },
+  {
+    "question": "Do you provide fresh seafood buffets?",
+    "answer": "Yes, seafood buffets are organized seasonally."
+  }
+]

@@ -1,0 +1,370 @@
+[
+  {
+    "question": "What are the check-in and check-out times?",
+    "answer": "Check-in starts at 15:00 and check-out is until 11:00."
+  },
+  {
+    "question": "Is early check-in available?",
+    "answer": "Early check-in is subject to availability. Please contact reception in advance; an extra fee may apply."
+  },
+  {
+    "question": "Is late check-out possible?",
+    "answer": "Yes, late check-out can be arranged upon request, subject to availability and a €20 fee."
+  },
+  {
+    "question": "Where is the hotel located?",
+    "answer": "We are located in central Helsinki, a short walk from the Central Railway Station and Esplanade Park."
+  },
+  {
+    "question": "How far is the hotel from Helsinki-Vantaa Airport?",
+    "answer": "The hotel is 20 km from Helsinki-Vantaa Airport, about 30 minutes by taxi or 40 minutes by train."
+  },
+  {
+    "question": "Do you offer an airport shuttle?",
+    "answer": "We do not operate a private shuttle, but trains and Finnair buses connect the airport to the city center conveniently."
+  },
+  {
+    "question": "Is public transport easily accessible?",
+    "answer": "Yes, trams, buses, and the central train station are all within a 5-minute walk."
+  },
+  {
+    "question": "Do you have parking?",
+    "answer": "Yes, underground parking is available for €25 per night. Spaces are limited."
+  },
+  {
+    "question": "Is Wi-Fi free?",
+    "answer": "Yes, high-speed Wi-Fi is complimentary in all rooms and public areas."
+  },
+  {
+    "question": "Is breakfast included?",
+    "answer": "Breakfast is included in most room rates and is served daily from 7:00 to 10:30."
+  },
+  {
+    "question": "What type of breakfast do you serve?",
+    "answer": "Our breakfast buffet includes continental and Finnish specialties such as Karelian pies, rye bread, and smoked salmon."
+  },
+  {
+    "question": "Can I have breakfast earlier than 7:00?",
+    "answer": "Yes, an early breakfast package can be arranged at reception if requested the night before."
+  },
+  {
+    "question": "Do you have a restaurant?",
+    "answer": "Yes, our in-house restaurant serves Finnish and international dishes daily."
+  },
+  {
+    "question": "Is room service available?",
+    "answer": "Room service is available from 12:00 to 22:00."
+  },
+  {
+    "question": "Do you have a bar?",
+    "answer": "Yes, our lobby bar is open until midnight and serves drinks and light snacks."
+  },
+  {
+    "question": "Are pets allowed?",
+    "answer": "Yes, small pets are allowed with an additional fee of €20 per night. Please inform us in advance."
+  },
+  {
+    "question": "Is the hotel non-smoking?",
+    "answer": "Yes, our hotel is 100% non-smoking. Designated smoking areas are outside."
+  },
+  {
+    "question": "Do you have wheelchair-accessible rooms?",
+    "answer": "Yes, we offer fully accessible rooms with roll-in showers and wider doorways."
+  },
+  {
+    "question": "Does the hotel have a sauna?",
+    "answer": "Yes, we offer a Finnish sauna, available daily from 17:00 to 22:00."
+  },
+  {
+    "question": "Do you have a fitness center?",
+    "answer": "Yes, our fitness room has cardio equipment and free weights, open from 6:00 to 22:00."
+  },
+  {
+    "question": "Do you provide luggage storage?",
+    "answer": "Yes, luggage storage is complimentary before check-in and after check-out."
+  },
+  {
+    "question": "What languages do the staff speak?",
+    "answer": "Our staff speak Finnish, English, and Swedish. Some also speak German and Russian."
+  },
+  {
+    "question": "Is the front desk open 24 hours?",
+    "answer": "Yes, reception is staffed 24/7."
+  },
+  {
+    "question": "Do you have meeting rooms?",
+    "answer": "Yes, we have several meeting rooms equipped with modern AV technology."
+  },
+  {
+    "question": "Can I host a conference at the hotel?",
+    "answer": "Yes, our conference hall accommodates up to 200 guests with catering available."
+  },
+  {
+    "question": "What is your cancellation policy?",
+    "answer": "Most bookings can be cancelled free of charge up to 24 hours before arrival. Please check your confirmation for details."
+  },
+  {
+    "question": "What credit cards do you accept?",
+    "answer": "We accept Visa, MasterCard, American Express, and UnionPay."
+  },
+  {
+    "question": "Can I pay with cash?",
+    "answer": "Yes, we accept EUR cash payments."
+  },
+  {
+    "question": "Is there an ATM nearby?",
+    "answer": "Yes, the nearest ATM is 200 meters from the hotel."
+  },
+  {
+    "question": "Do you exchange currency?",
+    "answer": "We do not exchange money, but currency exchange offices are located near the central station."
+  },
+  {
+    "question": "Is there a safe in the room?",
+    "answer": "Yes, all rooms have an electronic safe."
+  },
+  {
+    "question": "Is laundry service available?",
+    "answer": "Yes, laundry and dry-cleaning services are available Monday to Saturday."
+  },
+  {
+    "question": "Do you offer ironing facilities?",
+    "answer": "Yes, irons and ironing boards are available on request."
+  },
+  {
+    "question": "Do you offer babysitting services?",
+    "answer": "We do not provide babysitting directly but can recommend local agencies."
+  },
+  {
+    "question": "Is there a business center?",
+    "answer": "Yes, we provide a business corner with computers and printing services."
+  },
+  {
+    "question": "Can you arrange taxi service?",
+    "answer": "Yes, our front desk can book a taxi for you anytime."
+  },
+  {
+    "question": "Do you provide public transport tickets?",
+    "answer": "Yes, single tickets and day passes are available for purchase at reception."
+  },
+  {
+    "question": "Are there attractions nearby?",
+    "answer": "Yes, the Helsinki Cathedral, Market Square, and Design District are within walking distance."
+  },
+  {
+    "question": "Can you recommend local restaurants?",
+    "answer": "Our staff are happy to suggest nearby Finnish and international dining options."
+  },
+  {
+    "question": "Do you offer bike rentals?",
+    "answer": "We do not rent bikes, but Helsinki city bikes are available nearby."
+  },
+  {
+    "question": "Is there air conditioning in the rooms?",
+    "answer": "Yes, all rooms have individual climate control with air conditioning."
+  },
+  {
+    "question": "Do you provide extra beds?",
+    "answer": "Yes, extra beds can be arranged in certain room types for €30 per night."
+  },
+  {
+    "question": "Do you have baby cots?",
+    "answer": "Yes, baby cots are available free of charge upon request."
+  },
+  {
+    "question": "Is the tap water safe to drink?",
+    "answer": "Yes, Helsinki tap water is very clean and safe to drink."
+  },
+  {
+    "question": "Do you provide toiletries?",
+    "answer": "Yes, rooms include soap, shampoo, conditioner, and body lotion."
+  },
+  {
+    "question": "Do you provide hairdryers?",
+    "answer": "Yes, every room is equipped with a hairdryer."
+  },
+  {
+    "question": "Do you provide slippers and bathrobes?",
+    "answer": "Slippers and bathrobes are available in superior rooms and upon request."
+  },
+  {
+    "question": "Do you have family rooms?",
+    "answer": "Yes, we offer family rooms that can accommodate up to 4 guests."
+  },
+  {
+    "question": "Do you offer adjoining rooms?",
+    "answer": "Yes, we have interconnecting rooms available on request."
+  },
+  {
+    "question": "Do you provide wake-up calls?",
+    "answer": "Yes, wake-up calls can be requested at reception."
+  },
+  {
+    "question": "Do you allow parties in rooms?",
+    "answer": "Parties are not permitted in rooms to ensure the comfort of all guests."
+  },
+  {
+    "question": "Is there a quiet hours policy?",
+    "answer": "Yes, quiet hours are observed from 22:00 to 7:00."
+  },
+  {
+    "question": "Do you have a lost and found?",
+    "answer": "Yes, please contact reception if you have lost or found an item."
+  },
+  {
+    "question": "Do you provide maps of Helsinki?",
+    "answer": "Yes, complimentary city maps are available at the front desk."
+  },
+  {
+    "question": "Do you sell souvenirs?",
+    "answer": "Yes, small souvenirs and postcards are available in the lobby shop."
+  },
+  {
+    "question": "Is there a pharmacy nearby?",
+    "answer": "Yes, the nearest pharmacy is a 5-minute walk away."
+  },
+  {
+    "question": "Do you provide medical assistance?",
+    "answer": "For urgent needs we can call a doctor; pharmacies and clinics are close by."
+  },
+  {
+    "question": "Do you offer airport luggage transfers?",
+    "answer": "We do not provide luggage transfers, but taxis and shuttle services are available."
+  },
+  {
+    "question": "What time is housekeeping?",
+    "answer": "Housekeeping is provided daily between 9:00 and 15:00."
+  },
+  {
+    "question": "Can I request extra towels?",
+    "answer": "Yes, extra towels are available upon request."
+  },
+  {
+    "question": "Can I request hypoallergenic bedding?",
+    "answer": "Yes, hypoallergenic pillows and duvets are available."
+  },
+  {
+    "question": "Do you provide ironing service?",
+    "answer": "Yes, laundry staff can iron clothes on request."
+  },
+  {
+    "question": "Do you offer packed lunches?",
+    "answer": "Yes, packed lunches can be ordered in advance from reception."
+  },
+  {
+    "question": "Do you provide umbrellas?",
+    "answer": "Yes, umbrellas are available at the front desk."
+  },
+  {
+    "question": "Do you provide airport wake-up taxi booking?",
+    "answer": "Yes, reception can schedule an early wake-up call and taxi."
+  },
+  {
+    "question": "Do you have security cameras?",
+    "answer": "Yes, security cameras operate in common areas for guest safety."
+  },
+  {
+    "question": "Do you have a fire safety plan?",
+    "answer": "Yes, emergency exits are marked on each floor and staff are trained in fire safety."
+  },
+  {
+    "question": "Can I smoke in my room balcony?",
+    "answer": "No, smoking is not allowed in rooms or balconies."
+  },
+  {
+    "question": "Do you provide mini-fridges?",
+    "answer": "Yes, all rooms are equipped with a mini-fridge."
+  },
+  {
+    "question": "Do you provide kettles or coffee makers?",
+    "answer": "Yes, kettles and coffee makers are available in rooms."
+  },
+  {
+    "question": "Do you offer vegetarian options at the restaurant?",
+    "answer": "Yes, vegetarian and vegan options are available daily."
+  },
+  {
+    "question": "Do you have gluten-free options?",
+    "answer": "Yes, gluten-free bread and cereals are provided on request."
+  },
+  {
+    "question": "Is the hotel child-friendly?",
+    "answer": "Yes, we offer family rooms, baby cots, and children’s menus."
+  },
+  {
+    "question": "Do you organize tours?",
+    "answer": "We do not organize tours directly but can recommend reliable tour companies."
+  },
+  {
+    "question": "Do you sell Helsinki Card or City Pass?",
+    "answer": "Yes, Helsinki Cards are available at reception."
+  },
+  {
+    "question": "Do you provide climate control in rooms?",
+    "answer": "Yes, rooms have adjustable heating and cooling."
+  },
+  {
+    "question": "Do you have blackout curtains?",
+    "answer": "Yes, all rooms have blackout curtains for the bright Finnish summers."
+  },
+  {
+    "question": "Do you allow long-term stays?",
+    "answer": "Yes, extended stays are available with weekly cleaning service."
+  },
+  {
+    "question": "Is there a dress code in the restaurant?",
+    "answer": "Smart casual is recommended but no strict dress code is enforced."
+  },
+  {
+    "question": "Do you offer special packages for couples?",
+    "answer": "Yes, we offer romantic packages with champagne and late checkout."
+  },
+  {
+    "question": "Do you provide accessibility parking?",
+    "answer": "Yes, designated accessible parking spaces are available near the entrance."
+  },
+  {
+    "question": "Can I request an airport pick-up in advance?",
+    "answer": "We can pre-book a taxi for your arrival. Please share flight details."
+  },
+  {
+    "question": "Do you allow external food delivery?",
+    "answer": "Yes, food deliveries are allowed to rooms but must be received in the lobby."
+  },
+  {
+    "question": "Do you provide adapters for electrical plugs?",
+    "answer": "Yes, adapters are available at the front desk."
+  },
+  {
+    "question": "What voltage is used in Finland?",
+    "answer": "Finland uses 230V with European-style two-pin plugs."
+  },
+  {
+    "question": "Is tipping expected in Finland?",
+    "answer": "Tipping is not required, but rounding up the bill is appreciated."
+  },
+  {
+    "question": "Do you offer holiday or seasonal events?",
+    "answer": "Yes, we host seasonal dinners and holiday events. Ask at reception for the schedule."
+  },
+  {
+    "question": "Do you provide allergy-friendly rooms?",
+    "answer": "Yes, we have rooms with wooden floors and hypoallergenic bedding."
+  },
+  {
+    "question": "Do you have electric car charging stations?",
+    "answer": "Yes, charging stations are available in our parking garage."
+  },
+  {
+    "question": "Can I store my bicycle?",
+    "answer": "Yes, we offer a secure storage space for bicycles."
+  },
+  {
+    "question": "Do you provide shoe-shine service?",
+    "answer": "Yes, shoe-shine service is available on request."
+  },
+  {
+    "question": "Is there live music or entertainment?",
+    "answer": "We occasionally host live music in the lounge. Please ask at reception for upcoming events."
+  }
+]

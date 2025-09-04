@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hotel Chatbot Demo</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="page">
+    <h1>Hotel Chatbot Demo</h1>
+    <p>Click the button to launch the chat widget.</p>
+    <button id="toggleChat" class="toggle-btn" aria-expanded="false">Launch demo</button>
+  </main>
+
+  <div id="chatWidget" class="chat-widget" aria-hidden="true">
+    <div class="chat-card">
+      <header class="chat-header">
+        <div class="chat-title">Hotel Assistant</div>
+        <button id="closeChat" class="icon-btn" aria-label="Close chat">✕</button>
+      </header>
+      <div id="chatLog" class="chat-log" role="log" aria-live="polite"></div>
+      <form id="chatForm" class="chat-form">
+        <textarea id="chatInput" rows="1" placeholder="Type your message…" aria-label="Chat input"></textarea>
+        <button id="sendBtn" class="send-btn" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/static/chat.js"></script>
+</body>
+</html>

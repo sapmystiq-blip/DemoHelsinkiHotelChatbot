@@ -1,0 +1,602 @@
+[
+  {
+    "question": "What is your cancellation policy?",
+    "answer": "Most bookings can be cancelled free of charge up to 24 hours before arrival. Non-refundable rates are excluded."
+  },
+  {
+    "question": "Do you require a deposit?",
+    "answer": "No deposit is required for standard reservations, but special packages may require prepayment."
+  },
+  {
+    "question": "Can I pay in cash?",
+    "answer": "Yes, EUR cash payments are accepted at reception."
+  },
+  {
+    "question": "Do you accept foreign currencies?",
+    "answer": "We only accept payments in euros. Currency exchange offices are nearby."
+  },
+  {
+    "question": "Do you accept Visa and MasterCard?",
+    "answer": "Yes, we accept Visa, MasterCard, American Express, and UnionPay."
+  },
+  {
+    "question": "Can I pay by bank transfer?",
+    "answer": "Bank transfers are possible for corporate or group bookings with prior arrangement."
+  },
+  {
+    "question": "Do you accept PayPal?",
+    "answer": "No, we do not currently accept PayPal."
+  },
+  {
+    "question": "Do you accept mobile payments?",
+    "answer": "Yes, Apple Pay and Google Pay are accepted at reception and in the restaurant."
+  },
+  {
+    "question": "When is my credit card charged?",
+    "answer": "For flexible bookings, your card is charged at check-out. For non-refundable bookings, payment is taken at reservation."
+  },
+  {
+    "question": "Do you offer gift vouchers?",
+    "answer": "Yes, gift vouchers can be purchased at reception or online."
+  },
+  {
+    "question": "Can I book a room for a large group?",
+    "answer": "Yes, group bookings can be arranged by contacting our sales department directly."
+  },
+  {
+    "question": "Do you offer corporate rates?",
+    "answer": "Yes, we offer negotiated rates for companies. Please contact sales for details."
+  },
+  {
+    "question": "Do children stay for free?",
+    "answer": "Children under 6 stay free when sharing existing bedding with parents."
+  },
+  {
+    "question": "Is breakfast included in all rates?",
+    "answer": "Most rates include breakfast, but some discounted offers may exclude it."
+  },
+  {
+    "question": "Can I change my booking dates?",
+    "answer": "Yes, date changes are possible depending on the rate and availability."
+  },
+  {
+    "question": "How do I know my booking is confirmed?",
+    "answer": "You will receive a confirmation email after completing your reservation."
+  },
+  {
+    "question": "Can I request a booking confirmation letter for visa purposes?",
+    "answer": "Yes, we can issue a confirmation letter upon request after booking."
+  },
+  {
+    "question": "Can I book multiple rooms at once?",
+    "answer": "Yes, multiple rooms can be booked online or by contacting our reservations team."
+  },
+  {
+    "question": "Do you charge extra for additional guests?",
+    "answer": "Yes, an extra guest fee of €30 per night may apply depending on room type."
+  },
+  {
+    "question": "Can I book without breakfast?",
+    "answer": "Yes, some room rates are offered without breakfast."
+  },
+  {
+    "question": "Do you offer upgrade option?",
+    "answer": "Room upgrades are available at check-in for an additional fee."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer upgrade option?",
+    "answer": "Room upgrades are available at check-in for an additional fee."
+  },
+  {
+    "question": "Do you offer early check-in?",
+    "answer": "Early check-in is subject to availability and may incur a €20 fee."
+  },
+  {
+    "question": "Do you offer upgrade option?",
+    "answer": "Room upgrades are available at check-in for an additional fee."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer seasonal packages?",
+    "answer": "Yes, we offer seasonal packages such as Christmas or Midsummer specials with meals included."
+  },
+  {
+    "question": "Do you offer seasonal packages?",
+    "answer": "Yes, we offer seasonal packages such as Christmas or Midsummer specials with meals included."
+  },
+  {
+    "question": "Do you offer upgrade option?",
+    "answer": "Room upgrades are available at check-in for an additional fee."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer seasonal packages?",
+    "answer": "Yes, we offer seasonal packages such as Christmas or Midsummer specials with meals included."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer early check-in?",
+    "answer": "Early check-in is subject to availability and may incur a €20 fee."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer seasonal packages?",
+    "answer": "Yes, we offer seasonal packages such as Christmas or Midsummer specials with meals included."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer upgrade option?",
+    "answer": "Room upgrades are available at check-in for an additional fee."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer seasonal packages?",
+    "answer": "Yes, we offer seasonal packages such as Christmas or Midsummer specials with meals included."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer early check-in?",
+    "answer": "Early check-in is subject to availability and may incur a €20 fee."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer seasonal packages?",
+    "answer": "Yes, we offer seasonal packages such as Christmas or Midsummer specials with meals included."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer seasonal packages?",
+    "answer": "Yes, we offer seasonal packages such as Christmas or Midsummer specials with meals included."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer upgrade option?",
+    "answer": "Room upgrades are available at check-in for an additional fee."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer seasonal packages?",
+    "answer": "Yes, we offer seasonal packages such as Christmas or Midsummer specials with meals included."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer early check-in?",
+    "answer": "Early check-in is subject to availability and may incur a €20 fee."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer early check-in?",
+    "answer": "Early check-in is subject to availability and may incur a €20 fee."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer upgrade option?",
+    "answer": "Room upgrades are available at check-in for an additional fee."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer early check-in?",
+    "answer": "Early check-in is subject to availability and may incur a €20 fee."
+  },
+  {
+    "question": "Do you offer early check-in?",
+    "answer": "Early check-in is subject to availability and may incur a €20 fee."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer upgrade option?",
+    "answer": "Room upgrades are available at check-in for an additional fee."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer early check-in?",
+    "answer": "Early check-in is subject to availability and may incur a €20 fee."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer seasonal packages?",
+    "answer": "Yes, we offer seasonal packages such as Christmas or Midsummer specials with meals included."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer seasonal packages?",
+    "answer": "Yes, we offer seasonal packages such as Christmas or Midsummer specials with meals included."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer upgrade option?",
+    "answer": "Room upgrades are available at check-in for an additional fee."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer early check-in?",
+    "answer": "Early check-in is subject to availability and may incur a €20 fee."
+  },
+  {
+    "question": "Do you offer seasonal packages?",
+    "answer": "Yes, we offer seasonal packages such as Christmas or Midsummer specials with meals included."
+  },
+  {
+    "question": "Do you offer late check-out?",
+    "answer": "Late check-out can be arranged until 14:00 for an extra €20."
+  },
+  {
+    "question": "Do you offer seasonal packages?",
+    "answer": "Yes, we offer seasonal packages such as Christmas or Midsummer specials with meals included."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer early check-in?",
+    "answer": "Early check-in is subject to availability and may incur a €20 fee."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer payment split?",
+    "answer": "Yes, bills can be split between multiple cards or guests."
+  },
+  {
+    "question": "Do you offer minimum stay?",
+    "answer": "On certain dates, a minimum stay of two nights may apply."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer upgrade option?",
+    "answer": "Room upgrades are available at check-in for an additional fee."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer prepaid bookings?",
+    "answer": "Prepaid bookings are non-refundable but usually offered at a discount."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer third-party booking?",
+    "answer": "Please contact your booking provider directly for changes to third-party reservations."
+  },
+  {
+    "question": "Do you offer refund policy?",
+    "answer": "Refunds are processed within 5–7 business days depending on your bank."
+  },
+  {
+    "question": "Do you offer invoice request?",
+    "answer": "Invoices can be issued for company stays. Please provide billing details in advance."
+  },
+  {
+    "question": "Do you offer early check-in?",
+    "answer": "Early check-in is subject to availability and may incur a €20 fee."
+  }
+]

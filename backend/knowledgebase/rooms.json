@@ -1,0 +1,574 @@
+[
+  {
+    "question": "What room types do you offer?",
+    "answer": "We offer single, double, twin, deluxe, family rooms, and suites."
+  },
+  {
+    "question": "Do you have family rooms?",
+    "answer": "Yes, family rooms are available for up to 4 guests with extra beds or sofa beds."
+  },
+  {
+    "question": "How large are the standard rooms?",
+    "answer": "Standard rooms are approximately 18 square meters."
+  },
+  {
+    "question": "How large are the deluxe rooms?",
+    "answer": "Deluxe rooms are around 25 square meters with additional seating."
+  },
+  {
+    "question": "Do you have suites?",
+    "answer": "Yes, suites feature separate living and sleeping areas, approximately 40 square meters."
+  },
+  {
+    "question": "Do you offer rooms with balconies?",
+    "answer": "Yes, some deluxe rooms and suites include private balconies."
+  },
+  {
+    "question": "Do you offer harbor view rooms?",
+    "answer": "Yes, select deluxe rooms and suites provide harbor views."
+  },
+  {
+    "question": "Are smoking rooms available?",
+    "answer": "No, all rooms are non-smoking."
+  },
+  {
+    "question": "Do you offer twin rooms?",
+    "answer": "Yes, twin rooms feature two single beds."
+  },
+  {
+    "question": "Do you offer king-size beds?",
+    "answer": "Yes, deluxe rooms and suites include king-size beds."
+  },
+  {
+    "question": "Do you provide extra pillows?",
+    "answer": "Yes, extra pillows can be requested from housekeeping."
+  },
+  {
+    "question": "Do you provide hypoallergenic bedding?",
+    "answer": "Yes, hypoallergenic pillows and duvets are available on request."
+  },
+  {
+    "question": "Can I request an extra bed?",
+    "answer": "Yes, extra beds can be added for €30 per night in certain room types."
+  },
+  {
+    "question": "Do you provide baby cots?",
+    "answer": "Yes, baby cots are available free of charge upon request."
+  },
+  {
+    "question": "Are the mattresses firm or soft?",
+    "answer": "Mattresses are medium-firm, suitable for most guests."
+  },
+  {
+    "question": "Do rooms have minibars?",
+    "answer": "Yes, minibars with drinks and snacks are available in every room."
+  },
+  {
+    "question": "Is there a kettle in the room?",
+    "answer": "Yes, all rooms have an electric kettle with coffee and tea supplies."
+  },
+  {
+    "question": "Do rooms have coffee machines?",
+    "answer": "Coffee machines are included in deluxe rooms and suites."
+  },
+  {
+    "question": "Is bottled water provided?",
+    "answer": "Yes, complimentary bottled water is replenished daily."
+  },
+  {
+    "question": "Do rooms have safes?",
+    "answer": "Yes, all rooms are equipped with electronic safes."
+  },
+  {
+    "question": "Do rooms have blackout curtains?",
+    "answer": "Yes, all rooms feature blackout curtains, helpful during summer months."
+  },
+  {
+    "question": "Are rooms soundproof?",
+    "answer": "Yes, rooms are soundproofed to reduce outside noise."
+  },
+  {
+    "question": "Do rooms have wardrobes?",
+    "answer": "Yes, wardrobes with hangers are provided in all rooms."
+  },
+  {
+    "question": "Do you provide bathrobes?",
+    "answer": "Bathrobes are included in deluxe rooms and suites, available on request otherwise."
+  },
+  {
+    "question": "Do you provide slippers?",
+    "answer": "Yes, slippers are available in all rooms."
+  },
+  {
+    "question": "Do you provide daily housekeeping?",
+    "answer": "Yes, rooms are cleaned daily unless otherwise requested."
+  },
+  {
+    "question": "Can I opt out of daily cleaning?",
+    "answer": "Yes, guests can skip daily cleaning for sustainability purposes."
+  },
+  {
+    "question": "What time are rooms cleaned?",
+    "answer": "Housekeeping typically cleans between 9:00 and 15:00."
+  },
+  {
+    "question": "Can I request extra towels?",
+    "answer": "Yes, extra towels are available upon request."
+  },
+  {
+    "question": "Do you provide laundry service?",
+    "answer": "Yes, laundry and dry cleaning are available Monday to Saturday."
+  },
+  {
+    "question": "Do you provide ironing boards?",
+    "answer": "Yes, irons and ironing boards are available upon request."
+  },
+  {
+    "question": "Do rooms have televisions?",
+    "answer": "Yes, all rooms have flat-screen TVs with international channels."
+  },
+  {
+    "question": "Do TVs have streaming apps?",
+    "answer": "Yes, smart TVs in deluxe rooms and suites offer streaming services."
+  },
+  {
+    "question": "Do rooms have telephones?",
+    "answer": "Yes, all rooms include telephones for internal and external calls."
+  },
+  {
+    "question": "Do rooms have Bluetooth speakers?",
+    "answer": "Bluetooth speakers are included in suites."
+  },
+  {
+    "question": "Is Wi-Fi available in rooms?",
+    "answer": "Yes, high-speed Wi-Fi is complimentary in all rooms."
+  },
+  {
+    "question": "Do rooms have USB charging ports?",
+    "answer": "Yes, rooms are equipped with USB charging outlets."
+  },
+  {
+    "question": "Do rooms have showers or bathtubs?",
+    "answer": "Standard rooms have showers; deluxe rooms and suites may include bathtubs."
+  },
+  {
+    "question": "Are toiletries provided?",
+    "answer": "Yes, shampoo, conditioner, soap, and body lotion are provided."
+  },
+  {
+    "question": "Do rooms include hairdryers?",
+    "answer": "Yes, each bathroom has a hairdryer."
+  },
+  {
+    "question": "Do you provide shaving kits?",
+    "answer": "Shaving kits are available at reception upon request."
+  },
+  {
+    "question": "Do you provide dental kits?",
+    "answer": "Yes, dental kits are available from reception."
+  },
+  {
+    "question": "Do you provide sewing kits?",
+    "answer": "Yes, sewing kits can be requested from housekeeping."
+  },
+  {
+    "question": "Are towels changed daily?",
+    "answer": "Yes, towels are changed daily or on request to save resources."
+  },
+  {
+    "question": "Do you have wheelchair-accessible rooms?",
+    "answer": "Yes, accessible rooms with wider doors and roll-in showers are available."
+  },
+  {
+    "question": "Do accessible rooms have grab bars?",
+    "answer": "Yes, bathrooms in accessible rooms include grab bars."
+  },
+  {
+    "question": "Do accessible rooms have roll-in showers?",
+    "answer": "Yes, roll-in showers are available in accessible rooms."
+  },
+  {
+    "question": "Are light switches lowered in accessible rooms?",
+    "answer": "Yes, accessible rooms have lowered switches and handles."
+  },
+  {
+    "question": "Do you have elevators to all floors?",
+    "answer": "Yes, elevators serve all guest floors."
+  },
+  {
+    "question": "Can I request a high-floor room?",
+    "answer": "Yes, high-floor rooms are available upon request, subject to availability."
+  },
+  {
+    "question": "Do you offer room upgrades?",
+    "answer": "Yes, upgrades are available at check-in for an additional fee, depending on availability."
+  },
+  {
+    "question": "Do you provide romantic packages?",
+    "answer": "Yes, packages include champagne, flowers, and late checkout."
+  },
+  {
+    "question": "Do you provide family packages?",
+    "answer": "Yes, family packages include children’s amenities and extra bedding."
+  },
+  {
+    "question": "Can I request a quiet room?",
+    "answer": "Yes, we can assign quieter rooms facing the courtyard upon request."
+  },
+  {
+    "question": "Can I request an early check-in?",
+    "answer": "Early check-in is possible depending on availability, with an extra fee."
+  },
+  {
+    "question": "Can I request a late check-out?",
+    "answer": "Late check-out is available upon request for €20, subject to availability."
+  },
+  {
+    "question": "Do you provide hypoallergenic rooms?",
+    "answer": "Yes, allergy-friendly rooms with wooden floors and special bedding are available."
+  },
+  {
+    "question": "Do rooms have wooden or carpet floors?",
+    "answer": "Most rooms have carpet; allergy-friendly rooms have wooden floors."
+  },
+  {
+    "question": "Do you provide extra blankets?",
+    "answer": "Yes, extra blankets are available on request."
+  },
+  {
+    "question": "Do you provide wake-up calls?",
+    "answer": "Yes, wake-up calls can be arranged through reception."
+  },
+  {
+    "question": "Do you provide desk and lamp?",
+    "answer": "Yes, all rooms include a desk with a lamp and power sockets."
+  },
+  {
+    "question": "Do rooms have climate control?",
+    "answer": "Yes, rooms have adjustable heating and cooling systems."
+  },
+  {
+    "question": "Do windows open?",
+    "answer": "Yes, most room windows can be partially opened."
+  },
+  {
+    "question": "Do rooms have refrigerators?",
+    "answer": "Yes, minibars also serve as small refrigerators."
+  },
+  {
+    "question": "Do you have long-stay rooms?",
+    "answer": "Yes, suites with kitchenettes are available for extended stays."
+  },
+  {
+    "question": "Do rooms include kitchenettes?",
+    "answer": "Some long-stay suites have kitchenettes with cooking facilities."
+  },
+  {
+    "question": "Do you provide plates and cutlery?",
+    "answer": "Yes, kitchenettes are equipped with basic cutlery and dishes."
+  },
+  {
+    "question": "Do you offer laundry bags?",
+    "answer": "Yes, laundry bags are provided in all rooms."
+  },
+  {
+    "question": "Do you provide shoe-shine kits?",
+    "answer": "Yes, shoe care kits are available upon request."
+  },
+  {
+    "question": "Do you provide umbrellas?",
+    "answer": "Yes, umbrellas are available in rooms or at reception."
+  },
+  {
+    "question": "Do you provide notepads and pens?",
+    "answer": "Yes, all rooms have writing pads and pens."
+  },
+  {
+    "question": "Do you provide newspapers?",
+    "answer": "Yes, newspapers are available in the lobby and can be delivered to rooms on request."
+  },
+  {
+    "question": "Do you provide magazines?",
+    "answer": "Yes, Finnish lifestyle magazines are available in rooms and the lounge."
+  },
+  {
+    "question": "Do rooms have smoke detectors?",
+    "answer": "Yes, all rooms are equipped with smoke detectors."
+  },
+  {
+    "question": "Do rooms have sprinklers?",
+    "answer": "Yes, the hotel is equipped with a modern sprinkler system."
+  },
+  {
+    "question": "Do you provide emergency information in rooms?",
+    "answer": "Yes, emergency exit instructions are displayed on the back of each door."
+  },
+  {
+    "question": "Are rooms equipped with keycard access?",
+    "answer": "Yes, electronic keycards are used for guest safety."
+  },
+  {
+    "question": "Do you provide fire alarms for hearing-impaired guests?",
+    "answer": "Yes, visual fire alarms are available in accessible rooms."
+  },
+  {
+    "question": "Do you have panoramic view rooms?",
+    "answer": "Yes, some top-floor suites offer panoramic views of Helsinki."
+  },
+  {
+    "question": "Do you have rooms with skylights?",
+    "answer": "Yes, some attic rooms include skylights with blackout covers."
+  },
+  {
+    "question": "Do you have triple rooms?",
+    "answer": "Yes, triple rooms are available with three single beds or a double plus a single."
+  },
+  {
+    "question": "Do you have connecting family suites?",
+    "answer": "Yes, we offer family suites with interconnecting doors."
+  },
+  {
+    "question": "Do you have executive rooms?",
+    "answer": "Yes, executive rooms include larger desks, lounge access, and extra amenities."
+  },
+  {
+    "question": "Do you provide orthopedic pillows?",
+    "answer": "Yes, orthopedic pillows are available upon request."
+  },
+  {
+    "question": "Do you provide memory foam mattresses?",
+    "answer": "Our deluxe rooms and suites are equipped with memory foam mattresses."
+  },
+  {
+    "question": "Do you provide anti-allergy mattress covers?",
+    "answer": "Yes, hypoallergenic mattress covers are available on request."
+  },
+  {
+    "question": "Do you provide heated blankets?",
+    "answer": "Heated blankets are not provided, but rooms have adjustable heating."
+  },
+  {
+    "question": "Do you have bunk beds?",
+    "answer": "Yes, some family rooms include bunk beds for children."
+  },
+  {
+    "question": "Do you provide bath salts or bath bombs?",
+    "answer": "Bath amenities such as bath salts are available in suites."
+  },
+  {
+    "question": "Do rooms have rain showers?",
+    "answer": "Yes, deluxe rooms and suites feature rain showers."
+  },
+  {
+    "question": "Do you provide vanity kits?",
+    "answer": "Yes, vanity kits are available in all bathrooms."
+  },
+  {
+    "question": "Do you provide hair straighteners?",
+    "answer": "Hair straighteners can be borrowed from reception."
+  },
+  {
+    "question": "Do you provide magnifying mirrors?",
+    "answer": "Yes, magnifying mirrors are available in deluxe bathrooms."
+  },
+  {
+    "question": "Do you provide Nespresso machines?",
+    "answer": "Yes, Nespresso coffee machines are included in suites."
+  },
+  {
+    "question": "Do you provide eco-friendly toiletries?",
+    "answer": "Yes, eco-friendly and refillable toiletries are provided."
+  },
+  {
+    "question": "Do rooms include kettles for tea?",
+    "answer": "Yes, all rooms include kettles with tea and coffee supplies."
+  },
+  {
+    "question": "Do you provide wine glasses?",
+    "answer": "Yes, wine glasses are available upon request."
+  },
+  {
+    "question": "Do you provide ice buckets?",
+    "answer": "Yes, ice buckets are available through room service."
+  },
+  {
+    "question": "Do you offer turndown service?",
+    "answer": "Yes, turndown service is available in suites."
+  },
+  {
+    "question": "Do you offer pillow menus?",
+    "answer": "Yes, a selection of pillow types is available in deluxe rooms and suites."
+  },
+  {
+    "question": "Do you provide extra toiletries on request?",
+    "answer": "Yes, toiletries can be replenished on request at no charge."
+  },
+  {
+    "question": "Do you offer same-day laundry?",
+    "answer": "Yes, same-day laundry service is available if requested before 10:00 AM."
+  },
+  {
+    "question": "Do you offer dry cleaning?",
+    "answer": "Yes, dry cleaning is available Monday to Saturday."
+  },
+  {
+    "question": "Do you provide Chromecast?",
+    "answer": "Yes, deluxe rooms and suites have TVs with Chromecast built-in."
+  },
+  {
+    "question": "Do TVs have HDMI ports?",
+    "answer": "Yes, TVs have HDMI ports for connecting laptops or consoles."
+  },
+  {
+    "question": "Do you provide DVD players?",
+    "answer": "DVD players are available on request for suites."
+  },
+  {
+    "question": "Do you provide alarm clocks?",
+    "answer": "Yes, alarm clocks are provided in every room."
+  },
+  {
+    "question": "Do you provide smart lighting?",
+    "answer": "Yes, some premium rooms feature smart lighting controls."
+  },
+  {
+    "question": "Do accessible rooms have visual doorbells?",
+    "answer": "Yes, visual alerts for doorbells are available in accessible rooms."
+  },
+  {
+    "question": "Do accessible rooms have lower beds?",
+    "answer": "Yes, beds in accessible rooms are slightly lower for ease of use."
+  },
+  {
+    "question": "Do you provide shower chairs?",
+    "answer": "Yes, shower chairs are available in accessible rooms."
+  },
+  {
+    "question": "Do you provide wheelchair rental?",
+    "answer": "Wheelchairs can be arranged through reception with advance notice."
+  },
+  {
+    "question": "Are corridors wide enough for wheelchairs?",
+    "answer": "Yes, corridors are wheelchair accessible throughout the hotel."
+  },
+  {
+    "question": "Do you provide emergency flashlights in rooms?",
+    "answer": "Yes, emergency flashlights are available in all rooms."
+  },
+  {
+    "question": "Do you provide door chains?",
+    "answer": "Yes, rooms are equipped with safety chains on doors."
+  },
+  {
+    "question": "Do rooms have peepholes?",
+    "answer": "Yes, doors include peepholes for guest safety."
+  },
+  {
+    "question": "Do rooms have emergency buttons?",
+    "answer": "Accessible rooms include emergency call buttons in bathrooms."
+  },
+  {
+    "question": "Do you provide in-room safes large enough for laptops?",
+    "answer": "Yes, safes are large enough to hold laptops and valuables."
+  },
+  {
+    "question": "Do suites have dining tables?",
+    "answer": "Yes, suites include dining tables for four guests."
+  },
+  {
+    "question": "Do suites have microwaves?",
+    "answer": "Yes, long-stay suites are equipped with microwaves."
+  },
+  {
+    "question": "Do you provide dishwashers?",
+    "answer": "Some long-stay suites include dishwashers."
+  },
+  {
+    "question": "Do you provide stovetops?",
+    "answer": "Yes, long-stay suites include stovetops and cookware."
+  },
+  {
+    "question": "Do you provide toasters?",
+    "answer": "Yes, toasters are available in long-stay suites."
+  },
+  {
+    "question": "Do you provide blackout blinds?",
+    "answer": "Yes, rooms feature blackout blinds in addition to curtains."
+  },
+  {
+    "question": "Do you provide aromatherapy kits?",
+    "answer": "Aromatherapy kits are available in suites upon request."
+  },
+  {
+    "question": "Do you provide yoga mats?",
+    "answer": "Yes, yoga mats are available upon request."
+  },
+  {
+    "question": "Do you provide in-room fitness kits?",
+    "answer": "Fitness kits with resistance bands are available on request."
+  },
+  {
+    "question": "Do you provide humidifiers?",
+    "answer": "Humidifiers can be provided on request during winter months."
+  },
+  {
+    "question": "Do you provide children's TV channels?",
+    "answer": "Yes, TVs include children’s channels in multiple languages."
+  },
+  {
+    "question": "Do you provide baby monitors?",
+    "answer": "Baby monitors are available upon request."
+  },
+  {
+    "question": "Do you provide coloring kits for kids?",
+    "answer": "Yes, coloring books and pencils are provided for children on request."
+  },
+  {
+    "question": "Do you provide high chairs?",
+    "answer": "High chairs are available in suites and on request."
+  },
+  {
+    "question": "Do you provide children's bath products?",
+    "answer": "Yes, baby-friendly toiletries are available upon request."
+  },
+  {
+    "question": "Do rooms have extra power outlets?",
+    "answer": "Yes, rooms include multiple outlets suitable for business use."
+  },
+  {
+    "question": "Do rooms have work lamps?",
+    "answer": "Yes, each desk is equipped with a bright work lamp."
+  },
+  {
+    "question": "Do you provide document printing?",
+    "answer": "Yes, documents can be printed from the business center."
+  },
+  {
+    "question": "Do rooms include stationery?",
+    "answer": "Yes, rooms provide notepads and pens for business guests."
+  },
+  {
+    "question": "Do you provide secure Wi-Fi for business guests?",
+    "answer": "Yes, a dedicated secure Wi-Fi network is available for business travelers."
+  },
+  {
+    "question": "Do you provide fans in summer?",
+    "answer": "Yes, fans are available upon request in summer."
+  },
+  {
+    "question": "Do you provide extra heaters in winter?",
+    "answer": "Yes, portable heaters are available in winter if needed."
+  },
+  {
+    "question": "Do you provide electric blankets in winter?",
+    "answer": "Electric blankets are not standard, but extra blankets are available."
+  },
+  {
+    "question": "Do you provide winter duvets?",
+    "answer": "Yes, heavier duvets are provided in winter months."
+  },
+  {
+    "question": "Do you provide mosquito nets in summer?",
+    "answer": "Mosquito nets are not needed in Helsinki, but available if requested."
+  }
+]

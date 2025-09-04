@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "How far is Helsinki Cathedral from the hotel?",
+    "answer": "Helsinki Cathedral is about 1 km from the hotel, a 15-minute walk."
+  },
+  {
+    "question": "Can I walk to the Market Square?",
+    "answer": "Yes, Market Square is 1.2 km from the hotel and takes around 15 minutes on foot."
+  },
+  {
+    "question": "How do I get to Suomenlinna Fortress?",
+    "answer": "You can take a ferry from Market Square to Suomenlinna; the trip takes about 15 minutes."
+  },
+  {
+    "question": "Is the Design Museum nearby?",
+    "answer": "Yes, the Design Museum is 1.5 km away, about 20 minutes on foot or 10 minutes by tram."
+  },
+  {
+    "question": "Where is the National Museum of Finland?",
+    "answer": "The National Museum is 1.4 km away, next to the Parliament House."
+  },
+  {
+    "question": "How far is the Amos Rex Museum?",
+    "answer": "Amos Rex is about 1 km from the hotel, near Kamppi shopping center."
+  },
+  {
+    "question": "Can I visit the Oodi Library?",
+    "answer": "Yes, Oodi Central Library is 1.3 km away, next to Helsinki Central Station."
+  },
+  {
+    "question": "Is Temppeliaukio Church nearby?",
+    "answer": "Yes, the famous Rock Church is 2 km away, reachable by tram or a 25-minute walk."
+  },
+  {
+    "question": "Where can I see Finnish design shops?",
+    "answer": "The Design District, with boutiques and galleries, is 1 km from the hotel."
+  },
+  {
+    "question": "How far is the Uspenski Cathedral?",
+    "answer": "Uspenski Cathedral is about 1.3 km away, located near the Market Square."
+  },
+  {
+    "question": "Is there a park nearby?",
+    "answer": "Yes, Esplanadi Park is 800 meters away, a 10-minute walk."
+  },
+  {
+    "question": "Where can I go jogging?",
+    "answer": "Kaivopuisto Park is ideal for jogging and is 2 km from the hotel."
+  },
+  {
+    "question": "How do I get to Linnanmäki Amusement Park?",
+    "answer": "Linnanmäki is 3 km away; you can take tram 3 or 9 to get there in 15 minutes."
+  },
+  {
+    "question": "Is Kiasma Museum close by?",
+    "answer": "Yes, the Museum of Contemporary Art Kiasma is 1 km away."
+  },
+  {
+    "question": "How far is the Helsinki Zoo?",
+    "answer": "Helsinki Zoo on Korkeasaari Island is 4 km away, reachable by bus or ferry."
+  },
+  {
+    "question": "Can I visit Seurasaari Open-Air Museum?",
+    "answer": "Yes, Seurasaari is about 5 km from the hotel, 20 minutes by bus."
+  },
+  {
+    "question": "Is there a beach nearby?",
+    "answer": "Yes, Hietaniemi Beach is 2.5 km away, perfect in summer."
+  },
+  {
+    "question": "How do I reach the Olympic Stadium?",
+    "answer": "The Olympic Stadium is 2.5 km away and accessible by tram in 15 minutes."
+  },
+  {
+    "question": "Can I visit the Sibelius Monument?",
+    "answer": "Yes, the Sibelius Monument is 3 km away in Töölö."
+  },
+  {
+    "question": "Where can I shop for Finnish brands?",
+    "answer": "Stockmann Department Store is 800 meters away, offering Finnish and international brands."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about National Museum exhibits?",
+    "answer": "The museum showcases Finnish history from prehistoric times to modern day."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about National Museum exhibits?",
+    "answer": "The museum showcases Finnish history from prehistoric times to modern day."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about National Museum exhibits?",
+    "answer": "The museum showcases Finnish history from prehistoric times to modern day."
+  },
+  {
+    "question": "Can you tell me about Market Square food stalls?",
+    "answer": "Yes, you can try local specialties like salmon soup and cinnamon buns."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Market Square food stalls?",
+    "answer": "Yes, you can try local specialties like salmon soup and cinnamon buns."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about National Museum exhibits?",
+    "answer": "The museum showcases Finnish history from prehistoric times to modern day."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Suomenlinna history?",
+    "answer": "Suomenlinna is a UNESCO World Heritage site built in the 18th century."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Market Square food stalls?",
+    "answer": "Yes, you can try local specialties like salmon soup and cinnamon buns."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Suomenlinna history?",
+    "answer": "Suomenlinna is a UNESCO World Heritage site built in the 18th century."
+  },
+  {
+    "question": "Can you tell me about Kaivopuisto Park views?",
+    "answer": "The park offers beautiful sea views and walking paths."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Esplanadi Park events?",
+    "answer": "The park often hosts outdoor concerts and festivals in summer."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Esplanadi Park events?",
+    "answer": "The park often hosts outdoor concerts and festivals in summer."
+  },
+  {
+    "question": "Can you tell me about Esplanadi Park events?",
+    "answer": "The park often hosts outdoor concerts and festivals in summer."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about Esplanadi Park events?",
+    "answer": "The park often hosts outdoor concerts and festivals in summer."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Stockmann shopping?",
+    "answer": "Stockmann is Finland’s largest department store, established in 1862."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Suomenlinna history?",
+    "answer": "Suomenlinna is a UNESCO World Heritage site built in the 18th century."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Design District shopping?",
+    "answer": "You can find boutiques selling Finnish fashion, ceramics, and glassware."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Market Square food stalls?",
+    "answer": "Yes, you can try local specialties like salmon soup and cinnamon buns."
+  },
+  {
+    "question": "Can you tell me about Kaivopuisto Park views?",
+    "answer": "The park offers beautiful sea views and walking paths."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Kaivopuisto Park views?",
+    "answer": "The park offers beautiful sea views and walking paths."
+  },
+  {
+    "question": "Can you tell me about Kaivopuisto Park views?",
+    "answer": "The park offers beautiful sea views and walking paths."
+  },
+  {
+    "question": "Can you tell me about Market Square food stalls?",
+    "answer": "Yes, you can try local specialties like salmon soup and cinnamon buns."
+  },
+  {
+    "question": "Can you tell me about National Museum exhibits?",
+    "answer": "The museum showcases Finnish history from prehistoric times to modern day."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Esplanadi Park events?",
+    "answer": "The park often hosts outdoor concerts and festivals in summer."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Stockmann shopping?",
+    "answer": "Stockmann is Finland’s largest department store, established in 1862."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Esplanadi Park events?",
+    "answer": "The park often hosts outdoor concerts and festivals in summer."
+  },
+  {
+    "question": "Can you tell me about Stockmann shopping?",
+    "answer": "Stockmann is Finland’s largest department store, established in 1862."
+  },
+  {
+    "question": "Can you tell me about Market Square food stalls?",
+    "answer": "Yes, you can try local specialties like salmon soup and cinnamon buns."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Kaivopuisto Park views?",
+    "answer": "The park offers beautiful sea views and walking paths."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Design District shopping?",
+    "answer": "You can find boutiques selling Finnish fashion, ceramics, and glassware."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about Stockmann shopping?",
+    "answer": "Stockmann is Finland’s largest department store, established in 1862."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about National Museum exhibits?",
+    "answer": "The museum showcases Finnish history from prehistoric times to modern day."
+  },
+  {
+    "question": "Can you tell me about National Museum exhibits?",
+    "answer": "The museum showcases Finnish history from prehistoric times to modern day."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about Sibelius Monument significance?",
+    "answer": "The monument honors composer Jean Sibelius with over 600 steel pipes."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about National Museum exhibits?",
+    "answer": "The museum showcases Finnish history from prehistoric times to modern day."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Suomenlinna history?",
+    "answer": "Suomenlinna is a UNESCO World Heritage site built in the 18th century."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Esplanadi Park events?",
+    "answer": "The park often hosts outdoor concerts and festivals in summer."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Sibelius Monument significance?",
+    "answer": "The monument honors composer Jean Sibelius with over 600 steel pipes."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Esplanadi Park events?",
+    "answer": "The park often hosts outdoor concerts and festivals in summer."
+  },
+  {
+    "question": "Can you tell me about Sibelius Monument significance?",
+    "answer": "The monument honors composer Jean Sibelius with over 600 steel pipes."
+  },
+  {
+    "question": "Can you tell me about Kaivopuisto Park views?",
+    "answer": "The park offers beautiful sea views and walking paths."
+  },
+  {
+    "question": "Can you tell me about Esplanadi Park events?",
+    "answer": "The park often hosts outdoor concerts and festivals in summer."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Market Square food stalls?",
+    "answer": "Yes, you can try local specialties like salmon soup and cinnamon buns."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Sibelius Monument significance?",
+    "answer": "The monument honors composer Jean Sibelius with over 600 steel pipes."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Suomenlinna history?",
+    "answer": "Suomenlinna is a UNESCO World Heritage site built in the 18th century."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about Suomenlinna history?",
+    "answer": "Suomenlinna is a UNESCO World Heritage site built in the 18th century."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Suomenlinna history?",
+    "answer": "Suomenlinna is a UNESCO World Heritage site built in the 18th century."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Stockmann shopping?",
+    "answer": "Stockmann is Finland’s largest department store, established in 1862."
+  },
+  {
+    "question": "Can you tell me about National Museum exhibits?",
+    "answer": "The museum showcases Finnish history from prehistoric times to modern day."
+  },
+  {
+    "question": "Can you tell me about Suomenlinna history?",
+    "answer": "Suomenlinna is a UNESCO World Heritage site built in the 18th century."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Sibelius Monument significance?",
+    "answer": "The monument honors composer Jean Sibelius with over 600 steel pipes."
+  },
+  {
+    "question": "Can you tell me about Kaivopuisto Park views?",
+    "answer": "The park offers beautiful sea views and walking paths."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Esplanadi Park events?",
+    "answer": "The park often hosts outdoor concerts and festivals in summer."
+  },
+  {
+    "question": "Can you tell me about Sibelius Monument significance?",
+    "answer": "The monument honors composer Jean Sibelius with over 600 steel pipes."
+  },
+  {
+    "question": "Can you tell me about Market Square food stalls?",
+    "answer": "Yes, you can try local specialties like salmon soup and cinnamon buns."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Suomenlinna history?",
+    "answer": "Suomenlinna is a UNESCO World Heritage site built in the 18th century."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Esplanadi Park events?",
+    "answer": "The park often hosts outdoor concerts and festivals in summer."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Market Square food stalls?",
+    "answer": "Yes, you can try local specialties like salmon soup and cinnamon buns."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about Sibelius Monument significance?",
+    "answer": "The monument honors composer Jean Sibelius with over 600 steel pipes."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about National Museum exhibits?",
+    "answer": "The museum showcases Finnish history from prehistoric times to modern day."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Market Square food stalls?",
+    "answer": "Yes, you can try local specialties like salmon soup and cinnamon buns."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about National Museum exhibits?",
+    "answer": "The museum showcases Finnish history from prehistoric times to modern day."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Market Square food stalls?",
+    "answer": "Yes, you can try local specialties like salmon soup and cinnamon buns."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Kaivopuisto Park views?",
+    "answer": "The park offers beautiful sea views and walking paths."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Stockmann shopping?",
+    "answer": "Stockmann is Finland’s largest department store, established in 1862."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Sibelius Monument significance?",
+    "answer": "The monument honors composer Jean Sibelius with over 600 steel pipes."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about National Museum exhibits?",
+    "answer": "The museum showcases Finnish history from prehistoric times to modern day."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Market Square food stalls?",
+    "answer": "Yes, you can try local specialties like salmon soup and cinnamon buns."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Design District shopping?",
+    "answer": "You can find boutiques selling Finnish fashion, ceramics, and glassware."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Stockmann shopping?",
+    "answer": "Stockmann is Finland’s largest department store, established in 1862."
+  },
+  {
+    "question": "Can you tell me about Sibelius Monument significance?",
+    "answer": "The monument honors composer Jean Sibelius with over 600 steel pipes."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Kaivopuisto Park views?",
+    "answer": "The park offers beautiful sea views and walking paths."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Kaivopuisto Park views?",
+    "answer": "The park offers beautiful sea views and walking paths."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Helsinki Cathedral tours?",
+    "answer": "Guided tours are available daily, and entrance is free."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Sibelius Monument significance?",
+    "answer": "The monument honors composer Jean Sibelius with over 600 steel pipes."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Design District shopping?",
+    "answer": "You can find boutiques selling Finnish fashion, ceramics, and glassware."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Kiasma exhibitions?",
+    "answer": "Kiasma showcases modern art from Finland and abroad."
+  },
+  {
+    "question": "Can you tell me about Kaivopuisto Park views?",
+    "answer": "The park offers beautiful sea views and walking paths."
+  },
+  {
+    "question": "Can you tell me about Esplanadi Park events?",
+    "answer": "The park often hosts outdoor concerts and festivals in summer."
+  },
+  {
+    "question": "Can you tell me about Linnanmäki rides?",
+    "answer": "Yes, the amusement park features roller coasters and family rides."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Amos Rex architecture?",
+    "answer": "Amos Rex features underground exhibition halls and unique skylights."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Oodi Library facilities?",
+    "answer": "Yes, Oodi offers reading rooms, cafés, and a cinema."
+  },
+  {
+    "question": "Can you tell me about Design Museum exhibitions?",
+    "answer": "Yes, the museum hosts rotating exhibitions on Finnish and international design."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Design District shopping?",
+    "answer": "You can find boutiques selling Finnish fashion, ceramics, and glassware."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Olympic Stadium tours?",
+    "answer": "Guided tours are available, including access to the tower with city views."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Hietaniemi Beach activities?",
+    "answer": "Yes, you can sunbathe, swim, or play volleyball."
+  },
+  {
+    "question": "Can you tell me about Uspenski Cathedral services?",
+    "answer": "Yes, Orthodox services are held regularly, and visitors are welcome."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Suomenlinna history?",
+    "answer": "Suomenlinna is a UNESCO World Heritage site built in the 18th century."
+  },
+  {
+    "question": "Can you tell me about Stockmann shopping?",
+    "answer": "Stockmann is Finland’s largest department store, established in 1862."
+  },
+  {
+    "question": "Can you tell me about Seurasaari folk buildings?",
+    "answer": "Yes, the open-air museum displays traditional wooden Finnish houses."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  },
+  {
+    "question": "Can you tell me about Helsinki Zoo animals?",
+    "answer": "The zoo houses over 150 animal species from around the world."
+  },
+  {
+    "question": "Can you tell me about Temppeliaukio Church concerts?",
+    "answer": "Yes, the Rock Church hosts concerts thanks to its unique acoustics."
+  }
+]

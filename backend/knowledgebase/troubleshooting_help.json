@@ -1,0 +1,602 @@
+[
+  {
+    "question": "What should I do if I can’t connect to the Wi-Fi?",
+    "answer": "Please check that Wi-Fi is enabled on your device and select the hotel network. If issues persist, contact reception for assistance."
+  },
+  {
+    "question": "What if my key card doesn’t work?",
+    "answer": "Please return to reception where our staff will reactivate or replace your card."
+  },
+  {
+    "question": "What should I do if the TV is not working?",
+    "answer": "Check that the TV is plugged in and the remote has working batteries. If the issue remains, call reception for help."
+  },
+  {
+    "question": "What if I lose my room key?",
+    "answer": "Please inform reception immediately so we can issue a new key and deactivate the lost one."
+  },
+  {
+    "question": "What should I do if I lock myself out of my room?",
+    "answer": "Visit the front desk with an ID, and we will provide access to your room."
+  },
+  {
+    "question": "What if I need a doctor?",
+    "answer": "Reception can arrange a doctor’s visit or direct you to the nearest clinic."
+  },
+  {
+    "question": "What if I feel unwell at night?",
+    "answer": "Reception is staffed 24/7 and can call a doctor or ambulance if necessary."
+  },
+  {
+    "question": "What if the heating in my room is not working?",
+    "answer": "Please adjust the thermostat. If the issue persists, maintenance will be sent to assist."
+  },
+  {
+    "question": "What if the air conditioning is too cold?",
+    "answer": "You can adjust the room temperature using the wall control. Contact reception if you need help."
+  },
+  {
+    "question": "What if I lose something in the hotel?",
+    "answer": "Please contact reception. Lost items are stored at the front desk."
+  },
+  {
+    "question": "What if my luggage is delayed from the airport?",
+    "answer": "Reception can assist in tracking your luggage and arranging delivery when it arrives."
+  },
+  {
+    "question": "What if I miss breakfast?",
+    "answer": "You can request a takeaway breakfast or order from room service later in the day."
+  },
+  {
+    "question": "What if my safe won’t open?",
+    "answer": "Contact reception for immediate assistance. Only authorized staff can override safes."
+  },
+  {
+    "question": "What if there’s noise from another room?",
+    "answer": "Please inform reception, and we will handle the situation discreetly."
+  },
+  {
+    "question": "What if the elevator is out of service?",
+    "answer": "Staff will assist with luggage and direct you to an alternative route."
+  },
+  {
+    "question": "What if I left something in a taxi?",
+    "answer": "Reception can help contact the taxi company to recover your belongings."
+  },
+  {
+    "question": "What if my shower has no hot water?",
+    "answer": "Run the water for a few minutes. If it doesn’t heat, contact reception for maintenance."
+  },
+  {
+    "question": "What if the minibar is empty?",
+    "answer": "Please call reception to have it restocked or request room service."
+  },
+  {
+    "question": "What if I can’t find my reservation?",
+    "answer": "Provide your booking reference or name at reception. We will help locate your reservation."
+  },
+  {
+    "question": "What if my credit card is declined?",
+    "answer": "Please provide another payment method or contact your bank for verification."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with room service delay?",
+    "answer": "If your order is delayed, please call room service or reception to check the status."
+  },
+  {
+    "question": "What if I need help with power outage?",
+    "answer": "In case of a power cut, backup generators keep essential services running. Staff will advise further."
+  },
+  {
+    "question": "What if I need help with room service delay?",
+    "answer": "If your order is delayed, please call room service or reception to check the status."
+  },
+  {
+    "question": "What if I need help with Wi-Fi password?",
+    "answer": "The Wi-Fi password is provided at check-in and available at reception."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with room service delay?",
+    "answer": "If your order is delayed, please call room service or reception to check the status."
+  },
+  {
+    "question": "What if I need help with power outage?",
+    "answer": "In case of a power cut, backup generators keep essential services running. Staff will advise further."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with baby cot request?",
+    "answer": "Baby cots are available free of charge. Please contact reception."
+  },
+  {
+    "question": "What if I need help with printing documents?",
+    "answer": "Yes, documents can be printed at the business center or reception."
+  },
+  {
+    "question": "What if I need help with Wi-Fi password?",
+    "answer": "The Wi-Fi password is provided at check-in and available at reception."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with printing documents?",
+    "answer": "Yes, documents can be printed at the business center or reception."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with room service delay?",
+    "answer": "If your order is delayed, please call room service or reception to check the status."
+  },
+  {
+    "question": "What if I need help with Wi-Fi password?",
+    "answer": "The Wi-Fi password is provided at check-in and available at reception."
+  },
+  {
+    "question": "What if I need help with baby cot request?",
+    "answer": "Baby cots are available free of charge. Please contact reception."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with printing documents?",
+    "answer": "Yes, documents can be printed at the business center or reception."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with Wi-Fi password?",
+    "answer": "The Wi-Fi password is provided at check-in and available at reception."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with printing documents?",
+    "answer": "Yes, documents can be printed at the business center or reception."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with baby cot request?",
+    "answer": "Baby cots are available free of charge. Please contact reception."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with Wi-Fi password?",
+    "answer": "The Wi-Fi password is provided at check-in and available at reception."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with printing documents?",
+    "answer": "Yes, documents can be printed at the business center or reception."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with power outage?",
+    "answer": "In case of a power cut, backup generators keep essential services running. Staff will advise further."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with room service delay?",
+    "answer": "If your order is delayed, please call room service or reception to check the status."
+  },
+  {
+    "question": "What if I need help with printing documents?",
+    "answer": "Yes, documents can be printed at the business center or reception."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with Wi-Fi password?",
+    "answer": "The Wi-Fi password is provided at check-in and available at reception."
+  },
+  {
+    "question": "What if I need help with Wi-Fi password?",
+    "answer": "The Wi-Fi password is provided at check-in and available at reception."
+  },
+  {
+    "question": "What if I need help with power outage?",
+    "answer": "In case of a power cut, backup generators keep essential services running. Staff will advise further."
+  },
+  {
+    "question": "What if I need help with printing documents?",
+    "answer": "Yes, documents can be printed at the business center or reception."
+  },
+  {
+    "question": "What if I need help with baby cot request?",
+    "answer": "Baby cots are available free of charge. Please contact reception."
+  },
+  {
+    "question": "What if I need help with printing documents?",
+    "answer": "Yes, documents can be printed at the business center or reception."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with printing documents?",
+    "answer": "Yes, documents can be printed at the business center or reception."
+  },
+  {
+    "question": "What if I need help with Wi-Fi password?",
+    "answer": "The Wi-Fi password is provided at check-in and available at reception."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with baby cot request?",
+    "answer": "Baby cots are available free of charge. Please contact reception."
+  },
+  {
+    "question": "What if I need help with baby cot request?",
+    "answer": "Baby cots are available free of charge. Please contact reception."
+  },
+  {
+    "question": "What if I need help with room service delay?",
+    "answer": "If your order is delayed, please call room service or reception to check the status."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with power outage?",
+    "answer": "In case of a power cut, backup generators keep essential services running. Staff will advise further."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with baby cot request?",
+    "answer": "Baby cots are available free of charge. Please contact reception."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with power outage?",
+    "answer": "In case of a power cut, backup generators keep essential services running. Staff will advise further."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with room service delay?",
+    "answer": "If your order is delayed, please call room service or reception to check the status."
+  },
+  {
+    "question": "What if I need help with baby cot request?",
+    "answer": "Baby cots are available free of charge. Please contact reception."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with room service delay?",
+    "answer": "If your order is delayed, please call room service or reception to check the status."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with Wi-Fi password?",
+    "answer": "The Wi-Fi password is provided at check-in and available at reception."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with room service delay?",
+    "answer": "If your order is delayed, please call room service or reception to check the status."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with baby cot request?",
+    "answer": "Baby cots are available free of charge. Please contact reception."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with Wi-Fi password?",
+    "answer": "The Wi-Fi password is provided at check-in and available at reception."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with baby cot request?",
+    "answer": "Baby cots are available free of charge. Please contact reception."
+  },
+  {
+    "question": "What if I need help with Wi-Fi password?",
+    "answer": "The Wi-Fi password is provided at check-in and available at reception."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with baby cot request?",
+    "answer": "Baby cots are available free of charge. Please contact reception."
+  },
+  {
+    "question": "What if I need help with Wi-Fi password?",
+    "answer": "The Wi-Fi password is provided at check-in and available at reception."
+  },
+  {
+    "question": "What if I need help with taxi not arriving?",
+    "answer": "Reception can book another taxi immediately for you."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with power outage?",
+    "answer": "In case of a power cut, backup generators keep essential services running. Staff will advise further."
+  },
+  {
+    "question": "What if I need help with power outage?",
+    "answer": "In case of a power cut, backup generators keep essential services running. Staff will advise further."
+  },
+  {
+    "question": "What if I need help with printing documents?",
+    "answer": "Yes, documents can be printed at the business center or reception."
+  },
+  {
+    "question": "What if I need help with lost passport?",
+    "answer": "Reception can assist you in contacting your embassy and filing a report with the police."
+  },
+  {
+    "question": "What if I need help with printing documents?",
+    "answer": "Yes, documents can be printed at the business center or reception."
+  },
+  {
+    "question": "What if I need help with power outage?",
+    "answer": "In case of a power cut, backup generators keep essential services running. Staff will advise further."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with printing documents?",
+    "answer": "Yes, documents can be printed at the business center or reception."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with room service delay?",
+    "answer": "If your order is delayed, please call room service or reception to check the status."
+  },
+  {
+    "question": "What if I need help with room service delay?",
+    "answer": "If your order is delayed, please call room service or reception to check the status."
+  },
+  {
+    "question": "What if I need help with fire alarm?",
+    "answer": "If the fire alarm sounds, please follow emergency exit signs and instructions from staff."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with room service delay?",
+    "answer": "If your order is delayed, please call room service or reception to check the status."
+  },
+  {
+    "question": "What if I need help with extra towels?",
+    "answer": "You can request extra towels anytime from housekeeping or reception."
+  },
+  {
+    "question": "What if I need help with late-night noise?",
+    "answer": "Reception will contact the room responsible to ensure quiet hours are respected."
+  },
+  {
+    "question": "What if I need help with power outage?",
+    "answer": "In case of a power cut, backup generators keep essential services running. Staff will advise further."
+  }
+]

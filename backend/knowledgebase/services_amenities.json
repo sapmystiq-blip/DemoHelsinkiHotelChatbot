@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Do you have a fitness center?",
+    "answer": "Yes, our fitness center is open daily from 6:00 to 22:00 with cardio machines and free weights."
+  },
+  {
+    "question": "Do you have a sauna?",
+    "answer": "Yes, a traditional Finnish sauna is available every evening from 17:00 to 22:00."
+  },
+  {
+    "question": "Do you provide spa services?",
+    "answer": "Yes, massages and beauty treatments are available at our spa. Advance booking is recommended."
+  },
+  {
+    "question": "Is there a swimming pool?",
+    "answer": "Yes, we have an indoor heated pool open from 7:00 to 21:00."
+  },
+  {
+    "question": "Do you offer bicycle rentals?",
+    "answer": "Yes, bicycles are available for rent at reception during summer months."
+  },
+  {
+    "question": "Do you offer laundry service?",
+    "answer": "Yes, laundry and dry-cleaning services are available Monday to Saturday."
+  },
+  {
+    "question": "Do you have meeting rooms?",
+    "answer": "Yes, we have meeting rooms with modern AV equipment for up to 200 guests."
+  },
+  {
+    "question": "Do you offer airport transfers?",
+    "answer": "We can arrange airport taxis and transfers upon request."
+  },
+  {
+    "question": "Do you provide babysitting?",
+    "answer": "We can recommend local babysitting agencies upon request."
+  },
+  {
+    "question": "Is there parking available?",
+    "answer": "Yes, underground parking is available for €25 per night."
+  },
+  {
+    "question": "Do you offer charging stations for electric cars?",
+    "answer": "Yes, charging stations are available in our parking garage."
+  },
+  {
+    "question": "Do you provide luggage storage?",
+    "answer": "Yes, complimentary luggage storage is available before check-in and after check-out."
+  },
+  {
+    "question": "Do you have a business center?",
+    "answer": "Yes, our business corner offers computers, printers, and high-speed internet access."
+  },
+  {
+    "question": "Do you provide concierge service?",
+    "answer": "Yes, our concierge can assist with restaurant bookings, tickets, and recommendations."
+  },
+  {
+    "question": "Do you provide umbrellas for guests?",
+    "answer": "Yes, umbrellas are available at the front desk."
+  },
+  {
+    "question": "Do you have a gift shop?",
+    "answer": "Yes, our lobby shop sells souvenirs, local products, and travel essentials."
+  },
+  {
+    "question": "Do you provide wake-up calls?",
+    "answer": "Yes, wake-up calls can be requested at reception."
+  },
+  {
+    "question": "Do you provide airport check-in assistance?",
+    "answer": "Yes, our concierge can help with online check-in and boarding passes."
+  },
+  {
+    "question": "Do you provide hypoallergenic bedding?",
+    "answer": "Yes, hypoallergenic pillows and duvets are available on request."
+  },
+  {
+    "question": "Do you offer pet amenities?",
+    "answer": "Yes, pets receive welcome treats, bowls, and beds when staying with us."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer charging cables?",
+    "answer": "Yes, adapters and charging cables can be borrowed from reception."
+  },
+  {
+    "question": "Do you offer ironing service?",
+    "answer": "Yes, we provide ironing upon request."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer charging cables?",
+    "answer": "Yes, adapters and charging cables can be borrowed from reception."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer charging cables?",
+    "answer": "Yes, adapters and charging cables can be borrowed from reception."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer ironing service?",
+    "answer": "Yes, we provide ironing upon request."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer charging cables?",
+    "answer": "Yes, adapters and charging cables can be borrowed from reception."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer ironing service?",
+    "answer": "Yes, we provide ironing upon request."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer room cleaning?",
+    "answer": "Housekeeping is provided daily between 9:00 and 15:00."
+  },
+  {
+    "question": "Do you offer ironing service?",
+    "answer": "Yes, we provide ironing upon request."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer summer terrace?",
+    "answer": "Yes, the terrace is open during summer for dining and drinks."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer ironing service?",
+    "answer": "Yes, we provide ironing upon request."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer ironing service?",
+    "answer": "Yes, we provide ironing upon request."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer summer terrace?",
+    "answer": "Yes, the terrace is open during summer for dining and drinks."
+  },
+  {
+    "question": "Do you offer ironing service?",
+    "answer": "Yes, we provide ironing upon request."
+  },
+  {
+    "question": "Do you offer summer terrace?",
+    "answer": "Yes, the terrace is open during summer for dining and drinks."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer ironing service?",
+    "answer": "Yes, we provide ironing upon request."
+  },
+  {
+    "question": "Do you offer room cleaning?",
+    "answer": "Housekeeping is provided daily between 9:00 and 15:00."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer charging cables?",
+    "answer": "Yes, adapters and charging cables can be borrowed from reception."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer ironing service?",
+    "answer": "Yes, we provide ironing upon request."
+  },
+  {
+    "question": "Do you offer ironing service?",
+    "answer": "Yes, we provide ironing upon request."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer room cleaning?",
+    "answer": "Housekeeping is provided daily between 9:00 and 15:00."
+  },
+  {
+    "question": "Do you offer charging cables?",
+    "answer": "Yes, adapters and charging cables can be borrowed from reception."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer charging cables?",
+    "answer": "Yes, adapters and charging cables can be borrowed from reception."
+  },
+  {
+    "question": "Do you offer room cleaning?",
+    "answer": "Housekeeping is provided daily between 9:00 and 15:00."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer summer terrace?",
+    "answer": "Yes, the terrace is open during summer for dining and drinks."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer ironing service?",
+    "answer": "Yes, we provide ironing upon request."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer summer terrace?",
+    "answer": "Yes, the terrace is open during summer for dining and drinks."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer charging cables?",
+    "answer": "Yes, adapters and charging cables can be borrowed from reception."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer room cleaning?",
+    "answer": "Housekeeping is provided daily between 9:00 and 15:00."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer shuttle to city center?",
+    "answer": "We do not operate a shuttle, but trams and buses stop nearby."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer tour desk?",
+    "answer": "Yes, our staff can recommend and book tours around Helsinki."
+  },
+  {
+    "question": "Do you offer room cleaning?",
+    "answer": "Housekeeping is provided daily between 9:00 and 15:00."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer shoe-shine service?",
+    "answer": "Yes, a shoe-shine service is available."
+  },
+  {
+    "question": "Do you offer ATM on site?",
+    "answer": "Yes, there is an ATM located in the hotel lobby."
+  },
+  {
+    "question": "Do you offer summer terrace?",
+    "answer": "Yes, the terrace is open during summer for dining and drinks."
+  },
+  {
+    "question": "Do you offer ski storage?",
+    "answer": "Yes, a storage area for skis is available in winter."
+  },
+  {
+    "question": "Do you offer ironing service?",
+    "answer": "Yes, we provide ironing upon request."
+  },
+  {
+    "question": "Do you offer valet parking?",
+    "answer": "Yes, valet service is available for hotel guests."
+  },
+  {
+    "question": "Do you offer summer terrace?",
+    "answer": "Yes, the terrace is open during summer for dining and drinks."
+  },
+  {
+    "question": "Do you offer summer terrace?",
+    "answer": "Yes, the terrace is open during summer for dining and drinks."
+  }
+]
