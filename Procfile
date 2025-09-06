@@ -1,1 +1,1 @@
-web: bash -lc "uvicorn backend.app:app --host 0.0.0.0 --port $PORT"
+web: /app/venv/bin/uvicorn backend.app:app --host 0.0.0.0 --port $PORT
