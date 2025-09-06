@@ -87,6 +87,8 @@ STOPWORDS = {
     # EN
     "the","a","an","and","or","to","of","for","on","in","is","it","are","do","you","we","i",
     "can","with","at","my","our","your","me","us","be","have","has","will","from","about",
+    # common question words
+    "what","which","where","when","who","whom","whose","how",
     # FI (tiny set; expand as needed)
     "ja","tai","se","ne","että","kuin","minun","meidän","teidän","sinun","oma","olen","ovat",
 }
@@ -99,6 +101,11 @@ SYNONYMS = {
     "gym":"fitness", "fitness":"fitness",
     "checkout":"check-out", "checkin":"check-in",
     "late checkout":"late check-out", "late-checkout":"late check-out",
+
+    # Sightseeing / attractions phrasing
+    "sightsee":"attractions", "sightseeing":"attractions", "sights":"attractions",
+    "attraction":"attractions", "landmarks":"attractions", "places":"attractions",
+    "visit":"attractions", "doing":"attractions", "do":"attractions",
 
     # Finnish → English mapping (compact)
     "aamiainen":"breakfast",
@@ -396,11 +403,12 @@ def chat(req: ChatRequest):
     if top:
         best_blend, bm25, fuzzy, jacc, best_item = top[0]
 
+        # Require some lexical evidence (BM25 or Jaccard). Fuzzy alone is not enough.
         strong_enough = (
             best_blend >= MIN_ACCEPT_SCORE or
-            bm25 >= MIN_BM25_SIGNAL or
-            jacc >= MIN_JACCARD or
-            fuzzy >= MIN_FUZZY
+            (bm25 >= MIN_BM25_SIGNAL) or
+            (jacc >= MIN_JACCARD) or
+            (fuzzy >= max(MIN_FUZZY, 0.55) and (bm25 > 0 or jacc > 0))
         )
 
         if strong_enough:
