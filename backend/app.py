@@ -16,12 +16,30 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from difflib import SequenceMatcher
 
+# Optional LLM (OpenAI) client
+OPENAI_CLIENT = None
+LLM_MODEL = os.getenv("LLM_MODEL", "gpt-4o-mini")
+LLM_ENABLED = False
+LLM_TIMEOUT_SECS = int(os.getenv("LLM_TIMEOUT_SECS", "20"))
+
 # Optional: load .env (OPENAI_API_KEY, HOST, PORT, etc.)
 try:
     from dotenv import load_dotenv  # python-dotenv
     load_dotenv()
 except Exception:
     pass
+
+# Initialize OpenAI client if key present (optional)
+try:
+    from openai import OpenAI  # type: ignore
+    if os.getenv("OPENAI_API_KEY"):
+        OPENAI_CLIENT = OpenAI()
+        LLM_ENABLED = os.getenv("LLM_ENABLED", "true").lower() in {"1","true","yes","on"}
+    else:
+        LLM_ENABLED = False
+except Exception:
+    OPENAI_CLIENT = None
+    LLM_ENABLED = False
 
 logger = logging.getLogger("uvicorn")
 
@@ -300,6 +318,52 @@ def llm_like_answer(query: str, kb_items: List[Dict[str, Any]]) -> str:
     ans = (best.get("answer") or "").strip()
     return ans or "I found a related item, but it had no answer text."
 
+def generate_llm_answer(query: str, kb_items: List[Dict[str, Any]]) -> str:
+    """Use OpenAI to compose a KB-grounded answer. Safe fallback if unavailable."""
+    if not OPENAI_CLIENT or not LLM_ENABLED:
+        return llm_like_answer(query, kb_items)
+
+    # Build compact context from top items
+    context_blocks = []
+    for it in kb_items[:5]:
+        q = (it.get("question") or "").strip()
+        a = (it.get("answer") or "").strip()
+        if not a:
+            continue
+        src = it.get("file") or "knowledgebase"
+        context_blocks.append(f"Q: {q}\nA: {a}\n(Source: {src})")
+
+    if not context_blocks:
+        return llm_like_answer(query, kb_items)
+
+    system = (
+        "You are a helpful hotel assistant. Answer strictly using the provided knowledge base. "
+        "If the information is missing, say you don't know and recommend contacting the front desk. "
+        "Be concise, friendly, and do not invent details."
+    )
+    context = "\n\n".join(context_blocks)
+    user = (
+        f"User question: {query}\n\n"
+        f"Knowledge base excerpts:\n{context}\n\n"
+        "Compose the best possible answer using only the excerpts above."
+    )
+
+    try:
+        resp = OPENAI_CLIENT.chat.completions.create(
+            model=LLM_MODEL,
+            messages=[
+                {"role": "system", "content": system},
+                {"role": "user", "content": user},
+            ],
+            temperature=0.2,
+            max_tokens=300,
+            timeout=LLM_TIMEOUT_SECS,
+        )
+        txt = (resp.choices[0].message.content or "").strip()
+        return txt or llm_like_answer(query, kb_items)
+    except Exception:
+        return llm_like_answer(query, kb_items)
+
 # ============================================================
 # API routes
 # ============================================================
@@ -311,6 +375,8 @@ def health():
         "kb_dir": str(KB_DIR.resolve()),
         "vocab": len(DF),
         "avg_len": round(AVG_LEN, 2),
+        "llm_enabled": bool(LLM_ENABLED),
+        "llm_model": LLM_MODEL if LLM_ENABLED else None,
     }
 
 @app.post("/api/chat", response_model=ChatResponse)
@@ -338,14 +404,25 @@ def chat(req: ChatRequest):
         )
 
         if strong_enough:
-            reply = (best_item.get("answer") or "").strip() or llm_like_answer(user_msg, [t[4] for t in top])
-            src = f"KB • {best_item.get('file','')}"
+            kb_items = [t[4] for t in top]
+            if LLM_ENABLED and OPENAI_CLIENT:
+                reply = generate_llm_answer(user_msg, kb_items)
+                src = f"LLM • KB-grounded ({best_item.get('file','')})"
+            else:
+                reply = (best_item.get("answer") or "").strip() or llm_like_answer(user_msg, kb_items)
+                src = f"KB • {best_item.get('file','')}"
             return ChatResponse(reply=reply, source=src, match=float(round(best_blend, 3)))
 
     # 3) Out-of-scope / soft fallback
-    reply = llm_like_answer(user_msg, [t[4] for t in top] if top else [])
+    kb_items = [t[4] for t in top] if top else []
+    if LLM_ENABLED and OPENAI_CLIENT:
+        reply = generate_llm_answer(user_msg, kb_items)
+        src = "LLM • Fallback KB-grounded"
+    else:
+        reply = llm_like_answer(user_msg, kb_items)
+        src = "Fallback • KB-grounded"
     best_score = float(round(top[0][0], 3)) if top else 0.0
-    return ChatResponse(reply=reply, source="Fallback • KB-grounded", match=best_score)
+    return ChatResponse(reply=reply, source=src, match=best_score)
 
 # ============================================================
 # Startup: load KB and build index (with logs)
