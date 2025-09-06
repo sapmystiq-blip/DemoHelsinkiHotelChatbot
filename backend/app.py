@@ -21,6 +21,9 @@ OPENAI_CLIENT = None
 LLM_MODEL = os.getenv("LLM_MODEL", "gpt-4o-mini")
 LLM_ENABLED = False
 LLM_TIMEOUT_SECS = int(os.getenv("LLM_TIMEOUT_SECS", "20"))
+PRIMARY_LANG = os.getenv("PRIMARY_LANG", "fi")
+LANGUAGE_POLICY = os.getenv("LANGUAGE_POLICY", "always_primary")  # always_primary | match_user
+SUPPORTED_LANG_HINT = "fi, en, sv, no, de, fr, es, it"
 
 # Optional: load .env (OPENAI_API_KEY, HOST, PORT, etc.)
 try:
@@ -40,6 +43,26 @@ try:
 except Exception:
     OPENAI_CLIENT = None
     LLM_ENABLED = False
+
+# ============================================================
+# Language detection (optional)
+# ============================================================
+try:
+    from langdetect import detect as _ld_detect  # type: ignore
+    def detect_lang(text: str) -> str:
+        try:
+            return _ld_detect(text) or "en"
+        except Exception:
+            return "en"
+except Exception:
+    def detect_lang(text: str) -> str:
+        return "en"
+
+LANG_NAMES = {
+    "en": "English", "fi": "Finnish", "sv": "Swedish", "no": "Norwegian",
+    "de": "German", "fr": "French", "es": "Spanish", "it": "Italian",
+    "pt": "Portuguese", "nl": "Dutch", "da": "Danish"
+}
 
 logger = logging.getLogger("uvicorn")
 
@@ -287,48 +310,57 @@ def rule_based_answer(user_msg: str) -> str | None:
     if any(p in text for p in {"thanks","thank you","kiitos"}):
         return "Ole hyvä! (You’re welcome.)"
 
-    # booking intent
+    # booking intent (Finnish-first)
     if any(k in text for k in BOOKING_KEYWORDS):
         return (
-            "I can help you start a booking. Please share:\n"
-            "• Check-in date\n• Check-out date\n• Guests (adults/children)\n"
-            "• Room type preference (e.g., twin, double, family)"
+            "Voin auttaa varauksen aloittamisessa. Kerrothan: \n"
+            "• Saapumispäivä\n• Lähtöpäivä\n• Vieraat (aikuiset/lapset)\n"
+            "• Huonetyyppitoive (esim. twin, double, perhe)"
         )
 
-    # callback intent
+    # callback intent (Finnish-first)
     if any(k in text for k in CALLBACK_KEYWORDS):
         return (
-            "Sure — I can arrange a call back. Please provide:\n"
-            "• Your name\n• Phone number (with country code)\n"
-            "• Preferred time window (incl. timezone)\n• Topic (booking, invoice, group rates)"
+            "Voin järjestää takaisinsoiton. Anna: \n"
+            "• Nimesi\n• Puhelinnumero (maatunnus)\n"
+            "• Toivottu aikaikkuna (aikavyöhyke)\n• Aihe (varaus, lasku, ryhmät)"
         )
 
-    # help / human handoff
+    # help / human handoff (Finnish-first)
     if any(k in text for k in HELP_KEYWORDS):
-        return "I’m here to help. If you prefer a human, I can hand this over."
+        return "Autan mielelläni. Halutessasi voin ohjata tämän ihmiselle."
 
     return None
 
 # ============================================================
 # Fallback composer (out-of-scope aware)
 # ============================================================
-def llm_like_answer(query: str, kb_items: List[Dict[str, Any]]) -> str:
+def llm_like_answer(query: str, kb_items: List[Dict[str, Any]], respond_lang: str | None = None) -> str:
     toks = list(_tokens(query))
     has_overlap = any(t in DF for t in toks)
     if not kb_items or not has_overlap:
-        return (
-            f"I couldn’t find details about “{query}”. "
-            "I can help with hotel topics like check-in/out, breakfast, parking, rooms, sauna, gym, and payments. "
-            "Try asking: “What time is breakfast?”, “Do you have parking?”, or “Can I pay in cash?”."
-        )
+        if (respond_lang or PRIMARY_LANG) == "fi":
+            return (
+                f"En löytänyt tietoja aiheesta “{query}”. "
+                "Voin auttaa hotelliin liittyvissä asioissa, kuten sisään‑/uloskirjautuminen, aamiainen, pysäköinti, huoneet, sauna, kuntosali ja maksut. "
+                "Kokeile kysyä: “Mihin aikaan on aamiainen?”, “Onko pysäköintiä?”, tai “Voinko maksaa käteisellä?”."
+            )
+        else:
+            return (
+                f"I couldn’t find details about “{query}”. "
+                "I can help with hotel topics like check-in/out, breakfast, parking, rooms, sauna, gym, and payments. "
+                "Try asking: “What time is breakfast?”, “Do you have parking?”, or “Can I pay in cash?”."
+            )
     best = kb_items[0]
     ans = (best.get("answer") or "").strip()
     return ans or "I found a related item, but it had no answer text."
 
-def generate_llm_answer(query: str, kb_items: List[Dict[str, Any]]) -> str:
-    """Use OpenAI to compose a KB-grounded answer. Safe fallback if unavailable."""
+def generate_llm_answer(query: str, kb_items: List[Dict[str, Any]], respond_lang: str) -> str:
+    """Use OpenAI to compose a KB-grounded answer in the requested language.
+    Safe fallback if unavailable.
+    """
     if not OPENAI_CLIENT or not LLM_ENABLED:
-        return llm_like_answer(query, kb_items)
+        return llm_like_answer(query, kb_items, respond_lang)
 
     # Build compact context from top items
     context_blocks = []
@@ -341,12 +373,13 @@ def generate_llm_answer(query: str, kb_items: List[Dict[str, Any]]) -> str:
         context_blocks.append(f"Q: {q}\nA: {a}\n(Source: {src})")
 
     if not context_blocks:
-        return llm_like_answer(query, kb_items)
+        return llm_like_answer(query, kb_items, respond_lang)
 
+    lang_name = LANG_NAMES.get(respond_lang, respond_lang)
     system = (
         "You are a helpful Helsinki hotel assistant. Answer strictly using the provided knowledge base. "
         "If the information is missing, say you don't know and recommend contacting the front desk. "
-        "Be concise, friendly, and do not invent details."
+        f"Be concise, friendly, and do not invent details. Respond in {lang_name}."
     )
     context = "\n\n".join(context_blocks)
     user = (
@@ -367,9 +400,9 @@ def generate_llm_answer(query: str, kb_items: List[Dict[str, Any]]) -> str:
             timeout=LLM_TIMEOUT_SECS,
         )
         txt = (resp.choices[0].message.content or "").strip()
-        return txt or llm_like_answer(query, kb_items)
+        return txt or llm_like_answer(query, kb_items, respond_lang)
     except Exception:
-        return llm_like_answer(query, kb_items)
+        return llm_like_answer(query, kb_items, respond_lang)
 
 # ============================================================
 # API routes
@@ -384,6 +417,8 @@ def health():
         "avg_len": round(AVG_LEN, 2),
         "llm_enabled": bool(LLM_ENABLED),
         "llm_model": LLM_MODEL if LLM_ENABLED else None,
+        "langdetect": True,
+        "lang_hint": SUPPORTED_LANG_HINT,
     }
 
 @app.post("/api/chat", response_model=ChatResponse)
@@ -391,6 +426,10 @@ def chat(req: ChatRequest):
     user_msg = (req.message or "").strip()
     if not user_msg:
         raise HTTPException(status_code=400, detail="Message cannot be empty.")
+
+    # Language handling
+    user_lang = detect_lang(user_msg)
+    respond_lang = PRIMARY_LANG if LANGUAGE_POLICY == "always_primary" else user_lang
 
     # 1) Rules first
     rb = rule_based_answer(user_msg)
@@ -414,20 +453,20 @@ def chat(req: ChatRequest):
         if strong_enough:
             kb_items = [t[4] for t in top]
             if LLM_ENABLED and OPENAI_CLIENT:
-                reply = generate_llm_answer(user_msg, kb_items)
+                reply = generate_llm_answer(user_msg, kb_items, respond_lang=respond_lang)
                 src = f"LLM • KB-grounded ({best_item.get('file','')})"
             else:
-                reply = (best_item.get("answer") or "").strip() or llm_like_answer(user_msg, kb_items)
+                reply = (best_item.get("answer") or "").strip() or llm_like_answer(user_msg, kb_items, respond_lang)
                 src = f"KB • {best_item.get('file','')}"
             return ChatResponse(reply=reply, source=src, match=float(round(best_blend, 3)))
 
     # 3) Out-of-scope / soft fallback
     kb_items = [t[4] for t in top] if top else []
     if LLM_ENABLED and OPENAI_CLIENT:
-        reply = generate_llm_answer(user_msg, kb_items)
+        reply = generate_llm_answer(user_msg, kb_items, respond_lang=respond_lang)
         src = "LLM • Fallback KB-grounded"
     else:
-        reply = llm_like_answer(user_msg, kb_items)
+        reply = llm_like_answer(user_msg, kb_items, respond_lang)
         src = "Fallback • KB-grounded"
     best_score = float(round(top[0][0], 3)) if top else 0.0
     return ChatResponse(reply=reply, source=src, match=best_score)
