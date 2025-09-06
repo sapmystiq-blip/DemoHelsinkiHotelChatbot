@@ -1,6 +1,3 @@
-[phases.setup]
-nixPkgs = ["python311", "pip", "bash"]
-
 [phases.install]
 cmds = [
   "python -m pip install --upgrade pip setuptools wheel",
