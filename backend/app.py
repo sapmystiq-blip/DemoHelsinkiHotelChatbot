@@ -344,7 +344,7 @@ def generate_llm_answer(query: str, kb_items: List[Dict[str, Any]]) -> str:
         return llm_like_answer(query, kb_items)
 
     system = (
-        "You are a helpful hotel assistant. Answer strictly using the provided knowledge base. "
+        "You are a helpful Helsinki hotel assistant. Answer strictly using the provided knowledge base. "
         "If the information is missing, say you don't know and recommend contacting the front desk. "
         "Be concise, friendly, and do not invent details."
     )
