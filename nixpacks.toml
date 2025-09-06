@@ -1,0 +1,16 @@
+[phases.setup]
+nixPkgs = ["python311", "pip", "bash"]
+
+[phases.install]
+cmds = [
+  "python -m pip install --upgrade pip setuptools wheel",
+  "pip install --no-cache-dir -r backend/requirements.txt"
+]
+
+[variables]
+PYTHONUNBUFFERED = "1"
+PYTHONDONTWRITEBYTECODE = "1"
+PYTHONPATH = "."
+
+[start]
+cmd = "uvicorn backend.app:app --host 0.0.0.0 --port $PORT"

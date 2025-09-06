@@ -1,7 +1,21 @@
-.venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment variables
 .env
-.env
-.env
-.env
+
+# macOS
+.DS_Store
+
+# Node / Frontend cache
+node_modules/
+dist/

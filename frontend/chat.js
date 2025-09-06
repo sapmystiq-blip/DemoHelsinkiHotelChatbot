@@ -69,7 +69,7 @@ chatForm.addEventListener('submit', async (e) => {
     const data = await res.json();
     setTyping(false);
     let reply = data.reply || '...';
-    if (data.source) reply += `\n\n(From: ${data.source} • match ${data.match})`;
+    //if (data.source) reply += `\n\n(From: ${data.source} • match ${data.match})`;
     addBot(reply);
   } catch (err) {
     setTyping(false);
