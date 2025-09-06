@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import List, Tuple, Dict, Any
 from collections import Counter
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request, Response
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
@@ -80,6 +80,62 @@ KB_DIR = HERE / "knowledgebase"
 KB_FILES = [p.name for p in sorted(KB_DIR.glob("*.json"))]
 
 # ============================================================
+# Database (optional; e.g., Railway Postgres)
+# ============================================================
+DB_URL = os.getenv("DATABASE_URL") or os.getenv("DB_URL")
+DB_ENABLED = bool(DB_URL)
+ENGINE = None
+TABLE_READY = False
+
+def _db_connect_and_prepare():
+    """Initialize DB connection and ensure schema exists.
+    Uses SQLAlchemy Core to be lightweight.
+    """
+    global ENGINE, TABLE_READY
+    if not DB_ENABLED or ENGINE is not None:
+        return
+    try:
+        from sqlalchemy import create_engine, text
+        # Default pool size is fine for single worker; Railway uses one dyno
+        ENGINE = create_engine(DB_URL, pool_pre_ping=True)
+        with ENGINE.begin() as conn:
+            conn.execute(text(
+                """
+                CREATE TABLE IF NOT EXISTS chat_messages (
+                  id BIGSERIAL PRIMARY KEY,
+                  session_id TEXT,
+                  role TEXT NOT NULL,
+                  message TEXT NOT NULL,
+                  source TEXT,
+                  match_score DOUBLE PRECISION,
+                  created_at TIMESTAMPTZ DEFAULT NOW()
+                );
+                """
+            ))
+        TABLE_READY = True
+        logger.info("DB initialized: chat_messages table ready")
+    except Exception as e:
+        logger.exception(f"DB init failed: {e}")
+        ENGINE = None
+        TABLE_READY = False
+
+def _db_insert_message(session_id: str | None, role: str, message: str, source: str | None, match_score: float | None):
+    if not ENGINE or not TABLE_READY:
+        return
+    try:
+        from sqlalchemy import text
+        with ENGINE.begin() as conn:
+            conn.execute(
+                text("""
+                    INSERT INTO chat_messages (session_id, role, message, source, match_score)
+                    VALUES (:sid, :role, :msg, :src, :ms)
+                """),
+                {"sid": session_id, "role": role, "msg": message, "src": source, "ms": match_score}
+            )
+    except Exception as e:
+        logger.warning(f"DB insert failed: {e}")
+
+# ============================================================
 # Retrieval acceptance gates
 # ============================================================
 MIN_ACCEPT_SCORE = 1.20   # overall blend threshold (tune 1.0–2.0)
@@ -97,11 +153,13 @@ app = FastAPI(title="Hotel Chatbot Demo")
 # ============================================================
 class ChatRequest(BaseModel):
     message: str
+    session_id: str | None = None
 
 class ChatResponse(BaseModel):
     reply: str
     source: str | None = None
     match: float | None = None
+    session_id: str | None = None
 
 # ============================================================
 # Text normalization / tokenization
@@ -422,14 +480,28 @@ def health():
     }
 
 @app.post("/api/chat", response_model=ChatResponse)
-def chat(req: ChatRequest):
+def chat(req: ChatRequest, request: Request, response: Response):
     user_msg = (req.message or "").strip()
     if not user_msg:
         raise HTTPException(status_code=400, detail="Message cannot be empty.")
 
+    # Session handling: prefer payload session_id; else cookie; else create
+    session_id = (req.session_id or request.cookies.get("chat_session") or "").strip()
+    if not session_id:
+        import uuid
+        session_id = uuid.uuid4().hex
+        # 30 days cookie
+        response.set_cookie("chat_session", session_id, max_age=60*60*24*30, httponly=False, samesite="Lax")
+
     # Language handling
     user_lang = detect_lang(user_msg)
     respond_lang = PRIMARY_LANG if LANGUAGE_POLICY == "always_primary" else user_lang
+
+    # Log user message
+    try:
+        _db_insert_message(session_id, "user", user_msg, None, None)
+    except Exception:
+        pass
 
     # 1) Rules first
     rb = rule_based_answer(user_msg)
@@ -458,7 +530,12 @@ def chat(req: ChatRequest):
             else:
                 reply = (best_item.get("answer") or "").strip() or llm_like_answer(user_msg, kb_items, respond_lang)
                 src = f"KB • {best_item.get('file','')}"
-            return ChatResponse(reply=reply, source=src, match=float(round(best_blend, 3)))
+            # Log assistant message
+            try:
+                _db_insert_message(session_id, "assistant", reply, src, float(round(best_blend, 3)))
+            except Exception:
+                pass
+            return ChatResponse(reply=reply, source=src, match=float(round(best_blend, 3)), session_id=session_id)
 
     # 3) Out-of-scope / soft fallback
     kb_items = [t[4] for t in top] if top else []
@@ -469,7 +546,11 @@ def chat(req: ChatRequest):
         reply = llm_like_answer(user_msg, kb_items, respond_lang)
         src = "Fallback • KB-grounded"
     best_score = float(round(top[0][0], 3)) if top else 0.0
-    return ChatResponse(reply=reply, source=src, match=best_score)
+    try:
+        _db_insert_message(session_id, "assistant", reply, src, best_score)
+    except Exception:
+        pass
+    return ChatResponse(reply=reply, source=src, match=best_score, session_id=session_id)
 
 # ============================================================
 # Startup: load KB and build index (with logs)
@@ -478,6 +559,8 @@ def chat(req: ChatRequest):
 def startup_event():
     global KB
     logger.info("=== App startup: loading KB and building index ===")
+    if DB_ENABLED:
+        _db_connect_and_prepare()
     KB = load_kb_clean()
     build_index(KB)
 
