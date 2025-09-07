@@ -302,12 +302,50 @@ def _bm25_score(query_tokens: List[str], doc) -> float:
 
 def expand_query(q: str) -> List[str]:
     base = list(_tokens(q))
-    expanded = []
+    expanded: List[str] = []
     for t in base:
         expanded.append(t)
         if t in SYNONYMS:
             expanded.append(SYNONYMS[t])  # one-hop
+
+    # Heuristic: if the query sounds like the verb "to park",
+    # expand with parking-specific tokens to bridge morphology.
+    nq = _normalize(q)
+    if re.search(r"\b(where|can|may|could|i|we|my|our|hotel)\b.*\bpark\b", nq):
+        expanded.extend(["parking", "car", "car park", "garage", "pysäköinti"])
+
     return list(dict.fromkeys(expanded))  # de-dupe, order-preserving
+
+# ============================================================
+# Light intent detection and KB filtering
+# ============================================================
+def infer_intent(text: str) -> str | None:
+    t = _normalize(text)
+    toks = set(_tokens(text))
+    # Parking (vehicle) intent heuristics
+    if (
+        "parking" in toks
+        or "garage" in t
+        or "pysäköinti" in t
+        or "car park" in t
+        or re.search(r"\b(where|can|may|could|i|we|my|our|hotel)\b.*\bpark\b", t)
+        or re.search(r"\bpark (my|the) car\b", t)
+    ):
+        return "parking"
+    return None
+
+def filter_items_for_intent(intent: str | None, items: List[Dict[str, Any]]):
+    if not intent:
+        return items
+    if intent == "parking":
+        keep_kw = {"parking", "garage", "car park", "pysäköinti", "charging", "ev", "electric"}
+        filtered: List[Dict[str, Any]] = []
+        for it in items:
+            text = _normalize(f"{it.get('question','')} {it.get('answer','')}")
+            if any(kw in text for kw in keep_kw):
+                filtered.append(it)
+        return filtered or items
+    return items
 
 def score_item(query: str, item: Dict[str, Any], doc):
     qtokens = expand_query(query)
@@ -420,37 +458,9 @@ def generate_llm_answer(query: str, kb_items: List[Dict[str, Any]], respond_lang
     if not OPENAI_CLIENT or not LLM_ENABLED:
         return llm_like_answer(query, kb_items, respond_lang)
 
-    # Light intent filtering to avoid mixing unrelated topics (e.g., park vs parking)
-    def _infer_intent(text: str) -> str | None:
-        t = _normalize(text)
-        toks = set(_tokens(text))
-        # Parking (vehicle) intent heuristics
-        if (
-            "parking" in toks
-            or "car" in toks and "park" in t.split()
-            or "garage" in t
-            or "pysäköinti" in t
-            or "car park" in t
-        ):
-            return "parking"
-        return None
-
-    def _filter_items_for_intent(intent: str | None, items: List[Dict[str, Any]]):
-        if not intent:
-            return items
-        if intent == "parking":
-            keep_kw = {"parking", "garage", "car park", "pysäköinti", "charging", "ev", "electric"}
-            filtered: List[Dict[str, Any]] = []
-            for it in items:
-                text = _normalize(f"{it.get('question','')} {it.get('answer','')}")
-                if any(kw in text for kw in keep_kw):
-                    filtered.append(it)
-            # If filtering removed everything, fall back to originals
-            return filtered or items
-        return items
-
-    intent = _infer_intent(query)
-    kb_items = _filter_items_for_intent(intent, kb_items)
+    # Intent filter to avoid mixing unrelated topics (e.g., park vs parking)
+    intent = infer_intent(query)
+    kb_items = filter_items_for_intent(intent, kb_items)
 
     # Build compact context from top items
     context_blocks = []
@@ -557,11 +567,16 @@ def chat(req: ChatRequest, request: Request, response: Response):
 
         if strong_enough:
             kb_items = [t[4] for t in top]
+            # Apply intent filtering for both LLM and non-LLM paths
+            intent = infer_intent(user_msg)
+            kb_items = filter_items_for_intent(intent, kb_items)
             if LLM_ENABLED and OPENAI_CLIENT:
                 reply = generate_llm_answer(user_msg, kb_items, respond_lang=respond_lang)
                 src = f"LLM • KB-grounded ({best_item.get('file','')})"
             else:
-                reply = (best_item.get("answer") or "").strip() or llm_like_answer(user_msg, kb_items, respond_lang)
+                # Prefer the first filtered item if available
+                chosen = kb_items[0] if kb_items else best_item
+                reply = (chosen.get("answer") or "").strip() or llm_like_answer(user_msg, kb_items, respond_lang)
                 src = f"KB • {best_item.get('file','')}"
             # Log assistant message
             try:
@@ -572,6 +587,8 @@ def chat(req: ChatRequest, request: Request, response: Response):
 
     # 3) Out-of-scope / soft fallback
     kb_items = [t[4] for t in top] if top else []
+    intent = infer_intent(user_msg)
+    kb_items = filter_items_for_intent(intent, kb_items)
     if LLM_ENABLED and OPENAI_CLIENT:
         reply = generate_llm_answer(user_msg, kb_items, respond_lang=respond_lang)
         src = "LLM • Fallback KB-grounded"
