@@ -221,11 +221,15 @@ body {
 .typing{ font-style: italic; opacity: .75; }
 
 /* Language picker styling */
-.lang-picker .lang-buttons{ display:flex; gap:8px; flex-wrap: wrap; }
+.lang-picker{ font-size: 14px; max-width: 240px; }
+.lang-picker .lang-title{ margin-bottom: 6px; font-weight: 700; font-size: 14px; }
+.lang-picker .lang-buttons{ display:flex; flex-direction: column; gap:6px; }
 .lang-picker button{
+  display:flex; align-items:center; gap:8px;
   border: var(--border); background: var(--brand-white); color: var(--text);
-  padding: 8px 10px; border-radius: 10px; cursor: pointer;
+  padding: 8px 10px; border-radius: 10px; cursor: pointer; font-size: 14px;
 }
+.lang-picker button .flag{ width: 20px; display:inline-flex; justify-content:center; align-items:center; font-size: 18px; }
 .lang-picker button:hover{ box-shadow: var(--ring); }
 
 .chat-form{ display: flex; gap: 8px; padding: 10px; border-top: var(--border); background: var(--surface); }
@@ -334,4 +338,3 @@ body {
   border: 0;
   cursor: pointer;
 }
-

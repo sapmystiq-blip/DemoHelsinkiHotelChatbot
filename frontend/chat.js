@@ -77,11 +77,11 @@ function welcomeForLang(lang){
 function showLanguagePicker(){
   const html = `
     <div class="lang-picker">
-      <div style="margin-bottom:8px; font-weight:600;">Choose your language:</div>
+      <div class="lang-title">Choose your language:</div>
       <div class="lang-buttons">
-        <button type="button" data-lang="fi">Suomi</button>
-        <button type="button" data-lang="sv">Svenska</button>
-        <button type="button" data-lang="en">English</button>
+        <button type="button" data-lang="fi"><span class="flag" aria-hidden="true">🇫🇮</span><span>Suomi</span></button>
+        <button type="button" data-lang="sv"><span class="flag" aria-hidden="true">🇸🇪</span><span>Svenska</span></button>
+        <button type="button" data-lang="en"><span class="flag" aria-hidden="true">🇬🇧</span><span>English</span></button>
       </div>
     </div>`;
   addBotHtml(html);
