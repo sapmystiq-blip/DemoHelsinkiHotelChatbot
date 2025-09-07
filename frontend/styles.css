@@ -220,6 +220,14 @@ body {
 .msg.bot .bubble{ background: var(--brand-white); border: var(--border); color: var(--text); }
 .typing{ font-style: italic; opacity: .75; }
 
+/* Language picker styling */
+.lang-picker .lang-buttons{ display:flex; gap:8px; flex-wrap: wrap; }
+.lang-picker button{
+  border: var(--border); background: var(--brand-white); color: var(--text);
+  padding: 8px 10px; border-radius: 10px; cursor: pointer;
+}
+.lang-picker button:hover{ box-shadow: var(--ring); }
+
 .chat-form{ display: flex; gap: 8px; padding: 10px; border-top: var(--border); background: var(--surface); }
 #chatInput{
   flex: 1; resize: none; border-radius: 10px; padding: 10px 12px; border: var(--border); font: inherit;
@@ -326,5 +334,4 @@ body {
   border: 0;
   cursor: pointer;
 }
-
 

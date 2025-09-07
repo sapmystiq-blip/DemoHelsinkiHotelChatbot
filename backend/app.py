@@ -154,6 +154,7 @@ app = FastAPI(title="Hotel Chatbot Demo")
 class ChatRequest(BaseModel):
     message: str
     session_id: str | None = None
+    lang: str | None = None  # 'fi' | 'sv' | 'en'
 
 class ChatResponse(BaseModel):
     reply: str
@@ -395,16 +396,26 @@ CALLBACK_KEYWORDS = {"callback","call back","phone call","ring me","soita"}
 HELP_KEYWORDS = {"help","apua","support","human","agent"}
 GREETINGS = {"hei","moi","terve","hi","hello","hey","hola","ciao"}
 
-def rule_based_answer(user_msg: str) -> str | None:
+def rule_based_answer(user_msg: str, respond_lang: str | None = None) -> str | None:
     text = _normalize(user_msg)
 
     # greetings (exact or startswith greeting)
     if text in GREETINGS or any(text.startswith(g + " ") for g in GREETINGS):
-        return "Hei! 👋 Kuinka voin auttaa? (Hi! How can I help?)"
+        lang = respond_lang or (PRIMARY_LANG if LANGUAGE_POLICY == "always_primary" else detect_lang(user_msg))
+        if lang == "sv":
+            return "Hej! 👋 Hur kan jag hjälpa till?"
+        if lang == "fi":
+            return "Hei! 👋 Kuinka voin auttaa?"
+        return "Hi! 👋 How can I help?"
 
     # thanks
-    if any(p in text for p in {"thanks","thank you","kiitos"}):
-        return "Ole hyvä! (You’re welcome.)"
+    if any(p in text for p in {"thanks","thank you","kiitos","tack"}):
+        lang = respond_lang or (PRIMARY_LANG if LANGUAGE_POLICY == "always_primary" else detect_lang(user_msg))
+        if lang == "sv":
+            return "Varsågod!"
+        if lang == "fi":
+            return "Ole hyvä!"
+        return "You're welcome!"
 
     # booking intent (Finnish-first)
     if any(k in text for k in BOOKING_KEYWORDS):
@@ -435,11 +446,18 @@ def llm_like_answer(query: str, kb_items: List[Dict[str, Any]], respond_lang: st
     toks = list(_tokens(query))
     has_overlap = any(t in DF for t in toks)
     if not kb_items or not has_overlap:
-        if (respond_lang or PRIMARY_LANG) == "fi":
+        lang = (respond_lang or PRIMARY_LANG)
+        if lang == "fi":
             return (
                 f"En löytänyt tietoja aiheesta “{query}”. "
                 "Voin auttaa hotelliin liittyvissä asioissa, kuten sisään‑/uloskirjautuminen, aamiainen, pysäköinti, huoneet, sauna, kuntosali ja maksut. "
                 "Kokeile kysyä: “Mihin aikaan on aamiainen?”, “Onko pysäköintiä?”, tai “Voinko maksaa käteisellä?”."
+            )
+        if lang == "sv":
+            return (
+                f"Jag kunde inte hitta information om “{query}”. "
+                "Jag kan hjälpa till med hotellfrågor som in- och utcheckning, frukost, parkering, rum, bastu, gym och betalningar. "
+                "Prova att fråga: ”När är frukosten?”, ”Har ni parkering?” eller ”Kan jag betala kontant?”."
             )
         else:
             return (
@@ -537,8 +555,15 @@ def chat(req: ChatRequest, request: Request, response: Response):
         response.set_cookie("chat_session", session_id, max_age=60*60*24*30, httponly=False, samesite="Lax")
 
     # Language handling
+    # Language preference: explicit from client, cookie, else policy/detection
+    chosen_lang = (req.lang or request.cookies.get("chat_lang") or "").strip().lower()
+    if chosen_lang not in {"fi","sv","en"}:
+        chosen_lang = None
     user_lang = detect_lang(user_msg)
-    respond_lang = PRIMARY_LANG if LANGUAGE_POLICY == "always_primary" else user_lang
+    respond_lang = chosen_lang or (PRIMARY_LANG if LANGUAGE_POLICY == "always_primary" else user_lang)
+    if req.lang and chosen_lang:
+        # persist choice for session via cookie
+        response.set_cookie("chat_lang", chosen_lang, max_age=60*60*24*30, httponly=False, samesite="Lax")
 
     # Log user message
     try:
@@ -547,7 +572,7 @@ def chat(req: ChatRequest, request: Request, response: Response):
         pass
 
     # 1) Rules first
-    rb = rule_based_answer(user_msg)
+    rb = rule_based_answer(user_msg, respond_lang)
     if rb:
         return ChatResponse(reply=rb, source="Rules", match=1.0)
 
