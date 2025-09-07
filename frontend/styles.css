@@ -205,7 +205,8 @@ body {
 .icon-btn{ border: none; background: transparent; font-size: 18px; color: var(--brand-white); cursor: pointer; }
 .icon-btn:focus-visible{ outline: none; box-shadow: var(--ring); border-radius: 8px; }
 
-.chat-log{ padding: 12px; overflow-y: auto; -webkit-overflow-scrolling: touch; scroll-behavior: smooth; background: var(--surface-muted); }
+.chat-log{ padding: 8px 12px 12px; overflow-y: auto; -webkit-overflow-scrolling: touch; scroll-behavior: smooth; background: var(--surface-muted); }
+.chat-log .msg:first-child{ margin-top: 0; }
 .msg{ display:flex; gap:10px; margin:10px 0; }
 .msg .bubble{
   padding: 10px 12px; border-radius: 14px; max-width: 90%;

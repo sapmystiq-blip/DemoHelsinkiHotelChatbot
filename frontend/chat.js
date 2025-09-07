@@ -78,7 +78,7 @@ function welcomeForLang(lang){
 function showLanguagePicker(){
   const html = `
     <div class="lang-picker">
-      <div class="lang-title">Choose your language:</div>
+      <div class="lang-title">Valitse kieli:</div>
       <div class="lang-buttons">
         <button type="button" data-lang="fi"><span class="flag" aria-hidden="true">🇫🇮</span><span>Suomi</span></button>
         <button type="button" data-lang="sv"><span class="flag" aria-hidden="true">🇸🇪</span><span>Svenska</span></button>
