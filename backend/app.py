@@ -394,6 +394,12 @@ def find_best_kb_match(query: str, top_k: int = 3):
 BOOKING_KEYWORDS = {"book","reservation","reserve","varaa","booking"}
 CALLBACK_KEYWORDS = {"callback","call back","phone call","ring me","soita"}
 HELP_KEYWORDS = {"help","apua","support","human","agent"}
+# Capability / identity intent (e.g., "what can you do", "who are you")
+CAPABILITY_PHRASES = {
+    "what can you do", "what do you do", "how can you help",
+    "what can you help", "what can i ask", "what do you know",
+    "who are you", "who are u", "what are you", "who r u",
+}
 GREETINGS = {"hei","moi","terve","hi","hello","hey","hola","ciao"}
 
 def rule_based_answer(user_msg: str, respond_lang: str | None = None) -> str | None:
@@ -416,6 +422,39 @@ def rule_based_answer(user_msg: str, respond_lang: str | None = None) -> str | N
         if lang == "fi":
             return "Ole hyvä!"
         return "You're welcome!"
+
+    # capabilities / identity
+    if any(p in text for p in CAPABILITY_PHRASES):
+        lang = respond_lang or (PRIMARY_LANG if LANGUAGE_POLICY == "always_primary" else detect_lang(user_msg))
+        if lang == "sv":
+            return (
+                "Hej, jag är HoBo (Hotel Bot), din hotellassistent.\n"
+                "Jag kan hjälpa till med: \n"
+                "• Bokningar och bokningsdetaljer\n"
+                "• Rum och priser\n"
+                "• Bekvämligheter som parkering, bastu, gym och Wi‑Fi\n"
+                "• Mat och dryck: frukosttider, restaurang, bar\n"
+                "• Aktiviteter i närheten och tips om hur man tar sig runt"
+            )
+        if lang == "fi":
+            return (
+                "Hei, olen HoBo (Hotel Bot), hotellisi avustaja.\n"
+                "Voin auttaa seuraavissa asioissa: \n"
+                "• Varaukset ja varaustiedot\n"
+                "• Huoneet ja hinnat\n"
+                "• Palvelut kuten pysäköinti, sauna, kuntosali ja Wi‑Fi\n"
+                "• Ruoka ja juoma: aamiaisen ajat, ravintola, baari\n"
+                "• Aktiviteetit lähistöllä ja liikkumisvinkit"
+            )
+        return (
+            "Hi, I’m HoBo (Hotel Bot), your hotel assistant.\n"
+            "I can help with: \n"
+            "• Reservations and booking details\n"
+            "• Rooms and rates\n"
+            "• Amenities like parking, sauna, gym, and Wi‑Fi\n"
+            "• Food and drinks: breakfast times, restaurant, bar\n"
+            "• Activities nearby and tips for getting around"
+        )
 
     # booking intent (Finnish-first)
     if any(k in text for k in BOOKING_KEYWORDS):
