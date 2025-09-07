@@ -205,8 +205,10 @@ body {
 .icon-btn{ border: none; background: transparent; font-size: 18px; color: var(--brand-white); cursor: pointer; }
 .icon-btn:focus-visible{ outline: none; box-shadow: var(--ring); border-radius: 8px; }
 
-.chat-log{ padding: 8px 12px 12px; overflow-y: auto; -webkit-overflow-scrolling: touch; scroll-behavior: smooth; background: var(--surface-muted); }
-.chat-log .msg:first-child{ margin-top: 0; }
+.chat-log{ padding: 0 12px 12px; overflow-y: auto; -webkit-overflow-scrolling: touch; scroll-behavior: smooth; background: var(--surface-muted); }
+/* Ensure the very first message sits flush with the header */
+.chat-log .msg:first-child,
+.chat-log .msg:first-of-type{ margin-top: 0 !important; }
 .msg{ display:flex; gap:10px; margin:10px 0; }
 .msg .bubble{
   padding: 10px 12px; border-radius: 14px; max-width: 90%;
