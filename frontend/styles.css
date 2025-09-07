@@ -208,7 +208,7 @@ body {
 .chat-log{ padding: 0 12px 12px; overflow-y: auto; -webkit-overflow-scrolling: touch; scroll-behavior: smooth; background: var(--surface-muted); }
 /* Ensure the very first message sits flush with the header */
 .chat-log .msg:first-child,
-.chat-log .msg:first-of-type{ margin-top: 0 !important; }
+.chat-log .msg:first-of-type{ margin-top: 8px !important; }
 .msg{ display:flex; gap:10px; margin:10px 0; }
 .msg .bubble{
   padding: 10px 12px; border-radius: 14px; max-width: 90%;
