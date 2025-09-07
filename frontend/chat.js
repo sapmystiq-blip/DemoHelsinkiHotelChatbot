@@ -16,11 +16,12 @@ function toggleChat(open) {
   toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
   if (isOpen) {
     chatInput.focus();
-    if (!currentLang) {
-      // Show language picker and disable input until chosen
+    const hasMsgs = !!chatLog.querySelector('.msg');
+    if (!hasMsgs) {
+      // Always show language chooser at the start of a brand-new chat
       showLanguagePicker();
       setInputEnabled(false);
-    } else if (!chatLog.dataset.welcomed) {
+    } else if (!chatLog.dataset.welcomed && currentLang) {
       addBot(welcomeForLang(currentLang));
       chatLog.dataset.welcomed = "1";
     }
