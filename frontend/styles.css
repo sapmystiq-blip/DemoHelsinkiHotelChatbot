@@ -221,16 +221,18 @@ body {
   background: linear-gradient(135deg, var(--accent), var(--accent-strong)); /* teal gradient */
 }
 .msg.bot .bubble{ background: var(--brand-white); border: var(--border); color: var(--text); }
+/* When rendering rich HTML (like the language picker), don't preserve whitespace */
+.msg .bubble.html{ white-space: normal; padding: 8px 10px; }
 .typing{ font-style: italic; opacity: .75; }
 
 /* Language picker styling */
-.lang-picker{ font-size: 14px; max-width: 240px; }
-.lang-picker .lang-title{ margin-bottom: 6px; font-weight: 700; font-size: 14px; }
-.lang-picker .lang-buttons{ display:flex; flex-direction: column; gap:6px; }
+.lang-picker{ font-size: 14px; max-width: 220px; display: inline-block; }
+.lang-picker .lang-title{ margin: 0 0 4px 0; font-weight: 700; font-size: 14px; }
+.lang-picker .lang-buttons{ display:flex; flex-direction: column; gap:4px; }
 .lang-picker button{
   display:flex; align-items:center; gap:8px;
   border: var(--border); background: var(--brand-white); color: var(--text);
-  padding: 8px 10px; border-radius: 10px; cursor: pointer; font-size: 14px;
+  padding: 6px 10px; border-radius: 10px; cursor: pointer; font-size: 14px;
 }
 .lang-picker button .flag{ width: 20px; display:inline-flex; justify-content:center; align-items:center; font-size: 18px; }
 .lang-picker button:hover{ box-shadow: var(--ring); }

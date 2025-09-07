@@ -50,8 +50,9 @@ function addBotHtml(html) {
   const wrap = document.createElement('div');
   wrap.className = 'msg bot';
   const bubble = document.createElement('div');
-  bubble.className = 'bubble';
-  bubble.innerHTML = html;
+  bubble.className = 'bubble html';
+  // Trim leading whitespace/newlines so we don't render extra space in pre-wrap bubbles
+  bubble.innerHTML = html.trimStart();
   wrap.appendChild(bubble);
   chatLog.appendChild(wrap);
   chatLog.scrollTop = chatLog.scrollHeight;
@@ -76,8 +77,7 @@ function welcomeForLang(lang){
 }
 
 function showLanguagePicker(){
-  const html = `
-    <div class="lang-picker">
+  const html = `<div class="lang-picker">
       <div class="lang-title">Valitse kieli:</div>
       <div class="lang-buttons">
         <button type="button" data-lang="fi"><span class="flag" aria-hidden="true">🇫🇮</span><span>Suomi</span></button>
