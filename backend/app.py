@@ -420,6 +420,38 @@ def generate_llm_answer(query: str, kb_items: List[Dict[str, Any]], respond_lang
     if not OPENAI_CLIENT or not LLM_ENABLED:
         return llm_like_answer(query, kb_items, respond_lang)
 
+    # Light intent filtering to avoid mixing unrelated topics (e.g., park vs parking)
+    def _infer_intent(text: str) -> str | None:
+        t = _normalize(text)
+        toks = set(_tokens(text))
+        # Parking (vehicle) intent heuristics
+        if (
+            "parking" in toks
+            or "car" in toks and "park" in t.split()
+            or "garage" in t
+            or "pysäköinti" in t
+            or "car park" in t
+        ):
+            return "parking"
+        return None
+
+    def _filter_items_for_intent(intent: str | None, items: List[Dict[str, Any]]):
+        if not intent:
+            return items
+        if intent == "parking":
+            keep_kw = {"parking", "garage", "car park", "pysäköinti", "charging", "ev", "electric"}
+            filtered: List[Dict[str, Any]] = []
+            for it in items:
+                text = _normalize(f"{it.get('question','')} {it.get('answer','')}")
+                if any(kw in text for kw in keep_kw):
+                    filtered.append(it)
+            # If filtering removed everything, fall back to originals
+            return filtered or items
+        return items
+
+    intent = _infer_intent(query)
+    kb_items = _filter_items_for_intent(intent, kb_items)
+
     # Build compact context from top items
     context_blocks = []
     for it in kb_items[:5]:
@@ -436,6 +468,7 @@ def generate_llm_answer(query: str, kb_items: List[Dict[str, Any]], respond_lang
     lang_name = LANG_NAMES.get(respond_lang, respond_lang)
     system = (
         "You are a helpful Helsinki hotel assistant. Answer strictly using the provided knowledge base. "
+        "Only answer the user's explicit intent and do not add unrelated sightseeing or park recommendations unless asked. "
         "If the information is missing, say you don't know and recommend contacting the front desk. "
         f"Be concise, friendly, and do not invent details. Respond in {lang_name}."
     )
